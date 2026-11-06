@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUPERCHARGE — The Perplexity Computer 3D Vintage Card Shop &amp; Skill Emporium</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2246%22 fill=%22%23e5b84b%22/><text x=%2250%22 y=%2268%22 font-size=%2258%22 text-anchor=%22middle%22 fill=%22%23140e0a%22>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- TOP BRASS EMPORIUM MARQUEE HEADER -->
+  <header class="shop-header">
+    <div class="brand-crest">
+      <div class="brand-seal">✦</div>
+      <div class="brand-title-group">
+        <div class="brand-title">SUPERCHARGE EMPORIUM</div>
+        <div class="brand-subtitle">1st Edition Perplexity Computer Card Shop · 72 Verified Cards</div>
+      </div>
+    </div>
+
+    <nav class="nav-tabs" aria-label="Emporium Navigation">
+      <button class="nav-tab active" data-view="counter">
+        <span>01 · Pack Counter</span>
+        <span class="tab-badge">3D RIP</span>
+      </button>
+      <button class="nav-tab" data-view="cases">
+        <span>02 · Glass Display Cases</span>
+        <span class="tab-badge">6 CASES</span>
+      </button>
+      <button class="nav-tab" data-view="binder">
+        <span>03 · Collector Binder</span>
+        <span class="tab-badge">72 CARDS</span>
+      </button>
+      <button class="nav-tab" data-view="deck">
+        <span>04 · Loadout Stack</span>
+        <span class="tab-badge" id="stack-count-val">6 / 6</span>
+      </button>
+    </nav>
+
+    <div class="header-actions">
+      <div class="collection-pill" title="Cards discovered in your Collector Ledger">
+        <span>LEDGER</span>
+        <strong id="collected-count-val">6 / 72</strong>
+      </div>
+      <button class="audio-btn" id="btn-audio-toggle" title="Toggle Synthesized Foil &amp; Chime Audio">
+        ♫ SFX: ON
+      </button>
+      <a href="https://www.perplexity.ai/computer/skills" target="_blank" rel="noopener noreferrer" class="btn-brass btn-teal-action" style="padding:0.35rem 0.7rem; font-size:0.72rem; text-decoration:none;">
+        Perplexity Skills ↗
+      </a>
+    </div>
+  </header>
+
+  <!-- MAIN EMPORIUM STAGE -->
+  <main class="shop-main">
+    <!-- ===================================================================
+         VIEW 1: 3D FOIL PACK RIPPING COUNTER
+         =================================================================== -->
+    <section class="view-panel active" id="view-counter">
+      <div class="counter-layout">
+        <!-- Left Sidebar: 6 Collectible Booster Pack Dispensers -->
+        <aside class="pack-carousel-sidebar">
+          <div class="sidebar-header">
+            <span class="sidebar-title">6 Booster Series</span>
+            <span style="font-family:var(--font-mono); font-size:0.68rem; color:var(--cream-400);">5 Cards / Pack</span>
+          </div>
+          <div class="pack-list" id="pack-dispenser-list"></div>
+        </aside>
+
+        <!-- Center Stage: Three.js WebGL2 3D Foil Pack & Holographic 5-Card Fan -->
+        <div class="webgl-stage-wrapper">
+          <div id="three-stage-canvas"></div>
+
+          <!-- Top Floating HUD Overlay -->
+          <div class="stage-top-hud">
+            <div class="stage-pack-banner">
+              <div class="banner-kicker">1st Edition Crinkled Foil Booster · Custom GLSL Holo Shader</div>
+              <div class="banner-title" id="hud-pack-title">Wall Street &amp; Alpha Pack</div>
+              <div class="banner-desc" id="hud-pack-subtitle">SERIES I — Institutional Finance, SEC Filings &amp; Market Data</div>
+            </div>
+
+            <div class="seam-guide-pill">
+              <span class="seam-dot"></span>
+              <span>Drag Across Top Foil Seam or Click Rip Pack · <strong id="hud-seam-pct" style="color:var(--gold-200);">SEAM 0%</strong></span>
+            </div>
+          </div>
+
+          <!-- Bottom Floating Action Bar & Pulled 5-Card Tray -->
+          <div class="stage-bottom-hud">
+            <div class="pulled-cards-tray" id="pulled-cards-tray"></div>
+            <div class="stage-cta-row">
+              <button class="btn-brass btn-gold-primary" id="btn-rip-pack">
+                <span>✦ Rip Open Pack (5 Cards)</span>
+              </button>
+              <button class="btn-brass" id="btn-inspect-focused">
+                <span>🔍 3D Holo Inspect Card</span>
+              </button>
+              <button class="btn-brass" id="btn-fresh-pack" style="display:none;">
+                <span>↺ Seal Fresh Pack</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Sidebar: Live Card Preview & Direct Perplexity Routing -->
+        <aside class="counter-inspector-sidebar">
+          <div class="sidebar-header">
+            <span class="sidebar-title">Counter Magnifier</span>
+            <span style="font-family:var(--font-mono); font-size:0.66rem; color:var(--teal-300);">GLSL Holo Ready</span>
+          </div>
+          <div class="inspector-scroll" id="counter-card-preview-box"></div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         VIEW 2: ILLUMINATED VINTAGE GLASS DISPLAY CASES
+         =================================================================== -->
+    <section class="view-panel" id="view-cases">
+      <div class="scroll-view-container">
+        <div class="section-hero-bar">
+          <div class="section-hero-titles">
+            <div class="kicker">Curated Mahogany &amp; Brass Showcases</div>
+            <h2>Illuminated Glass Display Cases</h2>
+            <p>Hover any collector card under the tungsten cabinet lamps to tilt its 3D rainbow diffraction foil, or click to inspect and launch directly on Perplexity Computer.</p>
+          </div>
+          <div class="filter-bar" id="cases-rarity-filters">
+            <button class="filter-pill active" data-rarity="all">All Rarity Tiers (72)</button>
+            <button class="filter-pill" data-rarity="mythic-holo">★ Mythic Holo Plugins</button>
+            <button class="filter-pill" data-rarity="gold-connector">◆ 1st Ed. Gold Connectors</button>
+            <button class="filter-pill" data-rarity="prismatic-skill">✦ Prismatic Foil Skills</button>
+            <button class="filter-pill" data-rarity="collector-rare">● Vintage Collector Rares</button>
+          </div>
+        </div>
+
+        <div class="display-cases-stack" id="display-cases-container"></div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         VIEW 3: COMPLETE 72-CARD COLLECTOR BINDER
+         =================================================================== -->
+    <section class="view-panel" id="view-binder">
+      <div class="scroll-view-container">
+        <div class="section-hero-bar">
+          <div class="section-hero-titles">
+            <div class="kicker">Live Verified Catalog · Global, Org, Individual &amp; Project Scopes</div>
+            <h2>Complete 72-Card Collector Binder</h2>
+            <p id="binder-match-count">Showing 72 of 72 verified cards</p>
+          </div>
+          <div style="display:flex; flex-wrap:wrap; gap:0.55rem; align-items:center;">
+            <button class="btn-brass btn-gold-primary" id="btn-unlock-all" style="font-size:0.74rem; padding:0.45rem 0.85rem;">
+              ✦ Unlock All 72 Cards
+            </button>
+            <a href="data/perplexity_supercharge_card_catalog.json" download class="btn-brass" style="font-size:0.74rem; padding:0.45rem 0.8rem; text-decoration:none;">
+              ⬇ Export JSON
+            </a>
+            <a href="data/perplexity_supercharge_card_catalog.csv" download class="btn-brass" style="font-size:0.74rem; padding:0.45rem 0.8rem; text-decoration:none;">
+              ⬇ Export CSV
+            </a>
+          </div>
+        </div>
+
+        <div class="filter-bar" style="margin-bottom:1.25rem; justify-content:space-between;">
+          <div style="display:flex; flex-wrap:wrap; gap:0.5rem; align-items:center;">
+            <input
+              type="search"
+              id="binder-search-input"
+              class="search-input-brass"
+              placeholder="Search 72 skills, plugins, connectors, publishers, or triggers..."
+            />
+            <select id="binder-pack-select" class="search-input-brass" style="min-width:225px; cursor:pointer;"></select>
+          </div>
+
+          <div style="display:flex; flex-wrap:wrap; gap:0.35rem;">
+            <button class="filter-pill active" data-binder-kind="all">All Types</button>
+            <button class="filter-pill" data-binder-kind="skill">Skills (45)</button>
+            <button class="filter-pill" data-binder-kind="plugin">Plugin Bundles (10)</button>
+            <button class="filter-pill" data-binder-kind="connector">Connectors (17)</button>
+          </div>
+
+          <div style="display:flex; flex-wrap:wrap; gap:0.35rem;">
+            <button class="filter-pill active" data-binder-rarity="all">All Foil Tiers</button>
+            <button class="filter-pill" data-binder-rarity="mythic-holo">★ Mythic</button>
+            <button class="filter-pill" data-binder-rarity="gold-connector">◆ Gold</button>
+            <button class="filter-pill" data-binder-rarity="prismatic-skill">✦ Prismatic</button>
+            <button class="filter-pill" data-binder-rarity="collector-rare">● Vintage</button>
+          </div>
+        </div>
+
+        <div class="binder-grid" id="binder-cards-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===================================================================
+         VIEW 4: LOADOUT DECK BUILDER ("BUILD MY COMPUTER STACK")
+         =================================================================== -->
+    <section class="view-panel" id="view-deck">
+      <div class="scroll-view-container">
+        <div class="section-hero-bar">
+          <div class="section-hero-titles">
+            <div class="kicker">6-Card Collector Loadout &amp; Multi-Skill Workflow Synthesizer</div>
+            <h2>Build My Computer Stack</h2>
+            <p>Assemble up to 6 Skills, Plugin Bundles, and Connectors into a unified loadout deck to synthesize a chained Perplexity Computer master prompt.</p>
+          </div>
+          <div class="filter-bar">
+            <span style="font-family:var(--font-mono); font-size:0.7rem; color:var(--gold-300); margin-right:0.25rem;">LOAD PRESET DECK:</span>
+            <button class="filter-pill" data-preset-deck="wallstreet">Wall Street Deal Team</button>
+            <button class="filter-pill" data-preset-deck="studio">Auteur Design &amp; Video Studio</button>
+            <button class="filter-pill" data-preset-deck="security">Principal Red-Team Architect</button>
+            <button class="filter-pill" data-preset-deck="dealdesk">Enterprise Legal &amp; GTM Desk</button>
+          </div>
+        </div>
+
+        <div class="deck-builder-layout">
+          <div>
+            <div class="deck-slots-grid" id="deck-slots-grid"></div>
+          </div>
+          <div class="deck-summary-card" id="deck-summary-card"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 3D HOLOGRAPHIC CARD INSPECTOR MODAL -->
+  <div class="modal-backdrop" id="card-inspector-modal" role="dialog" aria-modal="true" aria-label="3D Collector Card Inspector">
+    <div class="modal-card-dialog">
+      <button class="modal-close-btn" id="modal-close-btn" title="Close Inspector (Esc)">✕</button>
+      <div class="modal-body-grid" id="card-inspector-body"></div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-banner" id="shop-toast"></div>
+
+  <!-- SCRIPTS -->
+  <script src="vendor/three.min.js"></script>
+  <script src="catalog-data.js"></script>
+  <script src="card-renderer.js"></script>
+  <script src="three-stage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

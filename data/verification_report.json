@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "totalCardsVerified": 72,
+  "totalPacksVerified": 6,
+  "allArtPlatesPresent": true,
+  "allPublisherLogosPresent": true,
+  "allDeepLinksValid": true,
+  "allTriggersAndPromptsValid": true,
+  "rarityBreakdown": {
+    "mythic-holo": 12,
+    "prismatic-skill": 25,
+    "gold-connector": 21,
+    "collector-rare": 14
+  },
+  "kindBreakdown": {
+    "Skill": 49,
+    "Connector": 20,
+    "Plugin Bundle": 3
+  },
+  "packBreakdown": [
+    {
+      "packId": "wall-street-alpha",
+      "name": "Wall Street & Alpha Pack",
+      "cardCount": 14,
+      "artExists": true
+    },
+    {
+      "packId": "auteur-3d-studio",
+      "name": "Auteur & 3D Studio Pack",
+      "cardCount": 11,
+      "artExists": true
+    },
+    {
+      "packId": "design-craft-atelier",
+      "name": "Design Craft & Web Atelier Pack",
+      "cardCount": 11,
+      "artExists": true
+    },
+    {
+      "packId": "systems-silicon-redteam",
+      "name": "Systems, Silicon & Red-Team Pack",
+      "cardCount": 12,
+      "artExists": true
+    },
+    {
+      "packId": "deal-desk-legal-gtm",
+      "name": "Deal Desk, Legal & Enterprise GTM Pack",
+      "cardCount": 11,
+      "artExists": true
+    },
+    {
+      "packId": "core-superpowers-daily",
+      "name": "Core Superpowers & Daily Driver Pack",
+      "cardCount": 13,
+      "artExists": true
+    }
+  ],
+  "rawLiveCatalogCounts": {
+    "globalSkills": 99,
+    "orgSkills": 170,
+    "individualSkills": 36,
+    "projectSkills": 3,
+    "globalPlugins": 20,
+    "orgPlugins": 50,
+    "individualPlugins": 1
+  }
+}

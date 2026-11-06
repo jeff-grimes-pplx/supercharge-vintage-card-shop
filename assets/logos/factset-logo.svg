@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- FactSet "F" icon mark in brand cyan #00AEEF -->
+  <!-- Outer F shape -->
+  <path fill="#00AEEF" d="
+    M 304 80
+    L 740 80
+    C 808 80 862 134 862 202
+    C 862 270 808 324 740 324
+    L 408 324
+    L 408 880
+    C 408 948 354 1002 286 1002
+    C 218 1002 164 948 164 880
+    L 164 220
+    C 164 142 228 80 304 80
+    Z
+  "/>
+  <!-- Middle crossbar (pill/capsule shape) -->
+  <rect fill="#00AEEF" x="408" y="452" width="330" height="188" rx="94" ry="94"/>
+</svg>

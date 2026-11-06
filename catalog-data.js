@@ -1,0 +1,3434 @@
+// Auto-generated canonical catalog for Supercharge — The Perplexity Computer Card Shop
+window.SUPERCHARGE_CATALOG = {
+  "title": "Supercharge — The Perplexity Computer Card Shop Catalog",
+  "version": "1.0.0",
+  "generatedAt": "2026-11-06T20:34:37.079979+00:00",
+  "totalCards": 72,
+  "totalPacks": 6,
+  "rawLiveCatalogCounts": {
+    "globalSkills": 99,
+    "orgSkills": 170,
+    "individualSkills": 36,
+    "projectSkills": 3,
+    "globalPlugins": 20,
+    "orgPlugins": 50,
+    "individualPlugins": 1
+  },
+  "packs": [
+    {
+      "id": "wall-street-alpha",
+      "number": "PACK 01",
+      "name": "Wall Street & Alpha Pack",
+      "subtitle": "Finance & Institutional Data",
+      "series": "1st Edition Institutional Series",
+      "accent": "#e5b84b",
+      "secondary": "#1d8a6b",
+      "foilTint": [
+        0.95,
+        0.78,
+        0.28
+      ],
+      "art": "./assets/art/pack-wall-street.jpg",
+      "description": "Public-market filings, institutional equity comps, alternative transaction panels, and live portfolio telemetry.",
+      "guaranteed": "1 Mythic Holo + 2 Gold Connectors + 2 Prismatic Skills",
+      "cardCount": 14,
+      "cardIds": [
+        "finance",
+        "company-comps",
+        "industry-overview",
+        "pm-thesis-and-risk-monitor",
+        "raw-material-cost-teardown",
+        "factset",
+        "daloopa",
+        "carbon-arc",
+        "morningstar",
+        "plaid",
+        "carta",
+        "robinhood",
+        "quickbooks",
+        "crunchbase"
+      ]
+    },
+    {
+      "id": "auteur-3d-studio",
+      "number": "PACK 02",
+      "name": "Auteur & 3D Studio Pack",
+      "subtitle": "Video, Audio, CAD & Media",
+      "series": "1st Edition Cinema & Atelier Series",
+      "accent": "#c97bf2",
+      "secondary": "#f0944d",
+      "foilTint": [
+        0.82,
+        0.48,
+        0.96
+      ],
+      "art": "./assets/art/pack-auteur-studio.jpg",
+      "description": "Code-directed short films, narrated 1080p30 science documentaries, 3D LEGO compilers, and LiDAR scan-to-BIM.",
+      "guaranteed": "1 Mythic Holo + 2 Prismatic 3D/Film Skills + 2 Studio Rares",
+      "cardCount": 11,
+      "cardIds": [
+        "media",
+        "lemo-opuscar",
+        "motion-design-lab",
+        "science-explainer-video",
+        "explainer-script-to-video",
+        "brickify",
+        "hairline",
+        "hyperframes",
+        "teardown",
+        "scan-to-bim",
+        "elevenlabs"
+      ]
+    },
+    {
+      "id": "design-craft-atelier",
+      "number": "PACK 03",
+      "name": "Design Craft & Web Atelier Pack",
+      "subtitle": "Frontend, Brand & Scrollytelling",
+      "series": "1st Edition Grand Atelier Series",
+      "accent": "#3ec9c1",
+      "secondary": "#f2b84b",
+      "foilTint": [
+        0.24,
+        0.82,
+        0.78
+      ],
+      "art": "./assets/art/pack-design-atelier.jpg",
+      "description": "Conversion and scrollytelling landing pages, Perplexity Visual Center design systems, D3 explainers, and browser craft QA.",
+      "guaranteed": "1 Mythic Holo Plugin + 3 Prismatic Design Skills + 1 Rare",
+      "cardCount": 11,
+      "cardIds": [
+        "website-building",
+        "build-landing-pages",
+        "taste-skill",
+        "impeccable",
+        "visualize",
+        "brand-inspiration",
+        "pplx-design",
+        "pplx-brand",
+        "pplx-document",
+        "clone-x-post",
+        "figma"
+      ]
+    },
+    {
+      "id": "systems-silicon-redteam",
+      "number": "PACK 04",
+      "name": "Systems, Silicon & Red-Team Pack",
+      "subtitle": "Engineering & Security",
+      "series": "1st Edition Foundry & Citadel Series",
+      "accent": "#4ba3f2",
+      "secondary": "#f25764",
+      "foilTint": [
+        0.3,
+        0.65,
+        0.96
+      ],
+      "art": "./assets/art/pack-systems-silicon.jpg",
+      "description": "End-to-end codebase security audits, CVE exposure checks, source-grounded knowledge graphs, and autonomous PR merge queues.",
+      "guaranteed": "1 Mythic Holo + 2 Gold Infrastructure Connectors + 2 Skills",
+      "cardCount": 12,
+      "cardIds": [
+        "security-audit",
+        "php2shell-exposure-check",
+        "graphify",
+        "advance-pr",
+        "add-3p-skill",
+        "custom-credentials",
+        "internal-product-state-verification",
+        "github",
+        "linear",
+        "datadog",
+        "supabase",
+        "snowflake"
+      ]
+    },
+    {
+      "id": "deal-desk-legal-gtm",
+      "number": "PACK 05",
+      "name": "Deal Desk, Legal & Enterprise GTM Pack",
+      "subtitle": "Legal, Procurement & Ops",
+      "series": "1st Edition Chancery & Boardroom Series",
+      "accent": "#e86b58",
+      "secondary": "#e5b84b",
+      "foilTint": [
+        0.92,
+        0.42,
+        0.34
+      ],
+      "art": "./assets/art/pack-deal-desk.jpg",
+      "description": "Playbook contract redlining, litigation defense workups, supplier concentration risk scans, and 27-thread enterprise demo orgs.",
+      "guaranteed": "1 Mythic Holo + 1 Gold Risk Connector + 3 Deal Desk Skills",
+      "cardCount": 11,
+      "cardIds": [
+        "contract-review",
+        "litigation-prep",
+        "compliance-monitor",
+        "billable-hours",
+        "business-playbooks",
+        "partner-demo-readiness",
+        "partner-proposal-review",
+        "supplier-risk-concentration-scan",
+        "demo-org-setup",
+        "dun-and-bradstreet",
+        "ramp"
+      ]
+    },
+    {
+      "id": "core-superpowers-daily",
+      "number": "PACK 06",
+      "name": "Core Superpowers & Daily Driver Pack",
+      "subtitle": "Autonomy, Devices & Live World",
+      "series": "1st Edition Autonomous Core Series",
+      "accent": "#58d68d",
+      "secondary": "#4bc4f2",
+      "foilTint": [
+        0.35,
+        0.85,
+        0.56
+      ],
+      "art": "./assets/art/pack-core-superpowers.jpg",
+      "description": "Multi-source deep research, live Chrome and native Mac control, durable recurring automations, and real-time sports/prediction odds.",
+      "guaranteed": "1 Mythic Core Skill + 2 Live-World Connectors + 2 Daily Drivers",
+      "cardCount": 13,
+      "cardIds": [
+        "search",
+        "browser-use",
+        "desktop-use",
+        "personal-computer",
+        "automations",
+        "office",
+        "file-citations",
+        "unbroker",
+        "streaming-ad-skipper",
+        "automatiq-tickets",
+        "opticodds",
+        "polymarket",
+        "sportradar"
+      ]
+    }
+  ],
+  "presetLoadouts": [
+    {
+      "id": "institutional-earnings-war-room",
+      "name": "Institutional Earnings War Room",
+      "archetype": "Fundamental Long/Short Equity",
+      "cards": [
+        "finance",
+        "carbon-arc",
+        "daloopa",
+        "factset",
+        "company-comps",
+        "pplx-document"
+      ],
+      "description": "Chains real-time Carbon Arc transaction panels with Daloopa footnote-audited actuals, FactSet street consensus, and trading comps into a Perplexity-branded IC memo.",
+      "comboPrompt": "load_skill(name=\"finance\") + load_skill(name=\"carbon-arc-earnings-preview\") + load_skill(name=\"daloopa-build-model\") + load_skill(name=\"company-comps\") + load_skill(name=\"org:pplx-document\"): Run a pre-quarter earnings war-room package on Chipotle and Sweetgreen combining Carbon Arc card-spend panels, Daloopa historical KPI bridges, FactSet consensus revisions, and a peer comps table into an IC-ready PDF brief."
+    },
+    {
+      "id": "autonomous-launch-studio",
+      "name": "Autonomous 3D & Film Launch Studio",
+      "archetype": "Creative Technical Showcase",
+      "cards": [
+        "website-building",
+        "taste-skill",
+        "impeccable",
+        "science-explainer-video",
+        "media",
+        "elevenlabs"
+      ],
+      "description": "Builds a bespoke interactive 3D web application, hardens every viewport with Impeccable QA, and produces an Audit v2 narrated 1080p30 documentary showcase film.",
+      "comboPrompt": "load_skill(name=\"website-building\") + load_skill(name=\"taste-skill\") + load_skill(name=\"impeccable\") + load_skill(name=\"user:science-explainer-video\") + load_skill(name=\"media\"): Build an interactive 3D web experience, audit layout and contrast across desktop and mobile viewports, and produce a narrated 1080p30 showcase film with ElevenLabs Chris voiceover and word-timed captions."
+    },
+    {
+      "id": "zero-day-redteam-ship-loop",
+      "name": "Red-Team & Zero-Touch PR Ship Loop",
+      "archetype": "Security & Systems Engineering",
+      "cards": [
+        "security-audit",
+        "php2shell-exposure-check",
+        "graphify",
+        "github",
+        "datadog",
+        "advance-pr"
+      ],
+      "description": "Maps repository architecture with Graphify, audits endpoints for vulnerabilities and CVEs, correlates Datadog telemetry, and advances the remediation PR through Trunk merge.",
+      "comboPrompt": "load_skill(name=\"graphify\") + load_skill(name=\"user:security-audit\") + load_skill(name=\"php2shell-exposure-check\") + load_skill(name=\"user:advance-pr\"): Map the service dependency graph, execute a full security audit and CVE exposure scan, verify Datadog error monitors, and advance the patched PR through CI and Trunk merge queue."
+    },
+    {
+      "id": "enterprise-deal-desk-concierge",
+      "name": "Enterprise Deal Desk & Demo Architect",
+      "archetype": "Legal, Procurement & GTM",
+      "cards": [
+        "partner-proposal-review",
+        "contract-review",
+        "supplier-risk-concentration-scan",
+        "dun-and-bradstreet",
+        "demo-org-setup",
+        "automations"
+      ],
+      "description": "Screens counterparty risk via Dun & Bradstreet, redlines vendor MSAs against firm playbooks, provisions a 27-thread tailored demo org, and schedules recurring compliance watches.",
+      "comboPrompt": "load_skill(name=\"dnb-committee-brief\") + load_skill(name=\"user:partner-proposal-review\") + load_skill(name=\"contract-review\") + load_skill(name=\"org:demo-org-setup\") + load_skill(name=\"automations\"): Verify counterparty UBO and risk via D&B, redline the vendor MSA against our playbook, provision a 27-thread enterprise demo org for the prospect, and set a recurring compliance monitor."
+    }
+  ],
+  "cards": [
+    {
+      "id": "finance",
+      "cardNumber": "SC-001/072",
+      "index": 1,
+      "title": "Finance Core Engine",
+      "slug": "finance",
+      "packId": "wall-street-alpha",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-finance",
+      "pluginId": null,
+      "art": "./assets/art/card-finance.jpg",
+      "motif": "candlestick-rotunda",
+      "canonicalCommand": "load_skill(name=\"finance\")",
+      "triggers": [
+        "SEC 10-K / S-1 filings",
+        "earnings call transcript",
+        "institutional market data",
+        "macro & crypto"
+      ],
+      "prompt": "Pull NVIDIA's latest 10-K and Q3 earnings transcript, reconcile segment data-center revenue growth against consensus, and flag key margin drivers.",
+      "description": "Retrieves and analyzes public-market equities, SEC/EDGAR registration and periodic filings, earnings call transcripts, macro series, and connected personal portfolios.",
+      "connectors": [
+        "finance",
+        "sec_edgar",
+        "plaid"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 98,
+        "speed": 95
+      },
+      "synergyWith": [
+        "company-comps",
+        "carbon-arc",
+        "daloopa",
+        "pplx-document"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/finance",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Pull+NVIDIA's+latest+10-K+and+Q3+earnings+transcript,+reconcile+segment+data-center+revenue+growth+against+consensus,+and+flag+key+margin+dr",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "company-comps",
+      "cardNumber": "SC-002/072",
+      "index": 2,
+      "title": "Company Comps Spreader",
+      "slug": "company-comps",
+      "packId": "wall-street-alpha",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "1113ab6e-7e24-46b3-8cb0-a408d8a51b72",
+      "pluginId": null,
+      "art": "./assets/art/card-factset.jpg",
+      "motif": "valuation-matrix",
+      "canonicalCommand": "load_skill(name=\"company-comps\")",
+      "triggers": [
+        "trading comps table",
+        "EV/Revenue & EV/EBITDA",
+        "peer group valuation",
+        "comps sheet"
+      ],
+      "prompt": "Build an institutional trading comps table for CrowdStrike vs. Palo Alto Networks, Zscaler, SentinelOne, and Datadog with EV/NTM Revenue, EV/EBITDA, Rule of 40, and FCF margins.",
+      "description": "Builds source-cited institutional trading comparables tables with EV/Revenue, EV/EBITDA, P/E, revenue growth rates, and operating margins across peer cohorts.",
+      "connectors": [
+        "factset_mcp",
+        "daloopa",
+        "finance"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 92
+      },
+      "synergyWith": [
+        "finance",
+        "factset",
+        "daloopa",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/company-comps?skillId=1113ab6e-7e24-46b3-8cb0-a408d8a51b72",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+an+institutional+trading+comps+table+for+CrowdStrike+vs.+Palo+Alto+Networks,+Zscaler,+SentinelOne,+and+Datadog+with+EV/NTM+Revenue,+EV",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "industry-overview",
+      "cardNumber": "SC-003/072",
+      "index": 3,
+      "title": "Industry Overview Deck",
+      "slug": "industry-overview",
+      "packId": "wall-street-alpha",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "be897def-1a25-403a-99ee-0d7f7679f8b6",
+      "pluginId": null,
+      "art": "./assets/art/card-finance.jpg",
+      "motif": "market-map-globe",
+      "canonicalCommand": "load_skill(name=\"industry-overview\")",
+      "triggers": [
+        "industry overview deck",
+        "profit pools & value chain",
+        "market sizing",
+        "investor sector primer"
+      ],
+      "prompt": "Build an investor-ready industry overview deck on grid-scale battery storage covering market sizing, value chain, profit pools, cyclicality, regulation, and unit economics.",
+      "description": "Constructs an investor-grade sector primer covering market definition, segmentation, TAM sizing, profit pools, value chain map, cyclicality, and underwriting thesis.",
+      "connectors": [
+        "finance",
+        "crunchbase_v3"
+      ],
+      "stats": {
+        "alpha": 93,
+        "depth": 96,
+        "speed": 90
+      },
+      "synergyWith": [
+        "company-comps",
+        "pplx-document",
+        "crunchbase"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/industry-overview?skillId=be897def-1a25-403a-99ee-0d7f7679f8b6",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+an+investor-ready+industry+overview+deck+on+grid-scale+battery+storage+covering+market+sizing,+value+chain,+profit+pools,+cyclicality,",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "pm-thesis-and-risk-monitor",
+      "cardNumber": "SC-004/072",
+      "index": 4,
+      "title": "PM Thesis & Risk Monitor",
+      "slug": "pm-thesis-and-risk-monitor",
+      "packId": "wall-street-alpha",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "97f4ba35-b0ce-41b6-9363-f77db1550304",
+      "pluginId": null,
+      "art": "./assets/art/card-finance.jpg",
+      "motif": "risk-radar",
+      "canonicalCommand": "load_skill(name=\"user:pm-thesis-and-risk-monitor\")",
+      "triggers": [
+        "PM thesis monitor",
+        "holdings risk review",
+        "active-risk brief",
+        "portfolio morning brief"
+      ],
+      "prompt": "Run a morning PM thesis and active-risk scan across our top 10 semiconductor and cloud holdings, flagging estimate revisions, filing conflicts, and the three positions needing immediate attention.",
+      "description": "Monitors a fundamental global-equity portfolio for thesis drift, active exposure, estimate revisions, upcoming catalysts, source conflicts, and risk-limit pressure.",
+      "connectors": [
+        "finance",
+        "factset_mcp",
+        "daloopa"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 97,
+        "speed": 93
+      },
+      "synergyWith": [
+        "finance",
+        "factset",
+        "daloopa",
+        "automations"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/pm-thesis-and-risk-monitor?skillId=97f4ba35-b0ce-41b6-9363-f77db1550304",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+a+morning+PM+thesis+and+active-risk+scan+across+our+top+10+semiconductor+and+cloud+holdings,+flagging+estimate+revisions,+filing+conflic",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "raw-material-cost-teardown",
+      "cardNumber": "SC-005/072",
+      "index": 5,
+      "title": "Raw Material Cost Teardown",
+      "slug": "raw-material-cost-teardown",
+      "packId": "wall-street-alpha",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "f612fe51-624b-4c0e-acd2-f777fc4716a0",
+      "pluginId": null,
+      "art": "./assets/art/card-daloopa.jpg",
+      "motif": "bom-assay-scales",
+      "canonicalCommand": "load_skill(name=\"user:raw-material-cost-teardown\")",
+      "triggers": [
+        "should-cost teardown",
+        "BOM cost drivers",
+        "price vs commodity index",
+        "sourcing savings"
+      ],
+      "prompt": "Run a should-cost BOM teardown on our CNC-machined 6061-T6 aluminum thermal housing, benchmark supplier quotes against LME aluminum index curves, and rank negotiation levers.",
+      "description": "Decomposes part and BOM costs into raw-material and process drivers, benchmarks paid supplier prices against live commodity indices, and ranks sourcing savings.",
+      "connectors": [
+        "finance",
+        "office"
+      ],
+      "stats": {
+        "alpha": 92,
+        "depth": 95,
+        "speed": 91
+      },
+      "synergyWith": [
+        "supplier-risk-concentration-scan",
+        "teardown",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/raw-material-cost-teardown?skillId=f612fe51-624b-4c0e-acd2-f777fc4716a0",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+a+should-cost+BOM+teardown+on+our+CNC-machined+6061-T6+aluminum+thermal+housing,+benchmark+supplier+quotes+against+LME+aluminum+index+cu",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "factset",
+      "cardNumber": "SC-006/072",
+      "index": 6,
+      "title": "FactSet Street Consensus",
+      "slug": "factset",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "FactSet",
+      "publisherLogo": "./assets/logos/factset-logo.svg",
+      "scope": "global",
+      "skillId": "3ce9b995-8803-4d98-8a1a-b2676d2badd4",
+      "pluginId": null,
+      "art": "./assets/art/card-factset.jpg",
+      "motif": "armillary-ticker",
+      "canonicalCommand": "load_skill(name=\"wsp-public-comps-spreader\")",
+      "triggers": [
+        "@FactSet",
+        "street consensus estimates",
+        "EV bridge & multiples",
+        "institutional peer screen"
+      ],
+      "prompt": "Using FactSet consensus and public comps spreader, compare NTM revenue and EPS revision trajectories across hyperscale AI infrastructure peers.",
+      "description": "Connects institutional FactSet estimates, revision histories, peer classifications, and EV-bridge fundamentals directly into Computer financial workflows.",
+      "connectors": [
+        "factset_mcp"
+      ],
+      "stats": {
+        "alpha": 97,
+        "depth": 96,
+        "speed": 95
+      },
+      "synergyWith": [
+        "company-comps",
+        "pm-thesis-and-risk-monitor",
+        "daloopa"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/wsp-public-comps-spreader?skillId=3ce9b995-8803-4d98-8a1a-b2676d2badd4",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Using+FactSet+consensus+and+public+comps+spreader,+compare+NTM+revenue+and+EPS+revision+trajectories+across+hyperscale+AI+infrastructure+pee",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "daloopa",
+      "cardNumber": "SC-007/072",
+      "index": 7,
+      "title": "Daloopa KPI & Model Engine",
+      "slug": "daloopa",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Daloopa",
+      "publisherLogo": "./assets/logos/daloopa-logo.svg",
+      "scope": "global",
+      "skillId": "f2bf60d1-bcce-43fa-ad0c-d365df8c2a95",
+      "pluginId": null,
+      "art": "./assets/art/card-daloopa.jpg",
+      "motif": "ledger-loom",
+      "canonicalCommand": "load_skill(name=\"daloopa-build-model\")",
+      "triggers": [
+        "@Daloopa",
+        "daloopa-build-model",
+        "daloopa-earnings-review",
+        "hyperlinked KPI actuals"
+      ],
+      "prompt": "Load Daloopa's standardized historical KPIs for Shopify, build a 3-statement operating model with GMV and take-rate bridges, and audit every cell to its filing footnote.",
+      "description": "Delivers source-linked, footnote-audited historical actuals, segment KPIs, tearsheets, and bull/bear model templates across public equities.",
+      "connectors": [
+        "daloopa"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 98,
+        "speed": 94
+      },
+      "synergyWith": [
+        "finance",
+        "company-comps",
+        "factset",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/daloopa-build-model?skillId=f2bf60d1-bcce-43fa-ad0c-d365df8c2a95",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Load+Daloopa's+standardized+historical+KPIs+for+Shopify,+build+a+3-statement+operating+model+with+GMV+and+take-rate+bridges,+and+audit+every",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "carbon-arc",
+      "cardNumber": "SC-008/072",
+      "index": 8,
+      "title": "Carbon Arc Alt-Data Pulse",
+      "slug": "carbon-arc",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Carbon Arc",
+      "publisherLogo": "./assets/logos/carbonarc-logo.svg",
+      "scope": "global",
+      "skillId": "81e874f4-f7b7-4053-8665-7c66d528b15f",
+      "pluginId": null,
+      "art": "./assets/art/card-carbon-arc.jpg",
+      "motif": "telemetry-globe",
+      "canonicalCommand": "load_skill(name=\"carbon-arc-earnings-preview\")",
+      "triggers": [
+        "@CarbonArc",
+        "card spend & foot traffic",
+        "carbon-arc-consumer-pulse",
+        "pre-print earnings preview"
+      ],
+      "prompt": "Run a Carbon Arc earnings preview on Chipotle using real-time card spend, foot traffic, and cohort retention panels versus street same-store-sales consensus.",
+      "description": "Streams real-time consumer transaction data, foot traffic, clickstream, and cohort affordability panels for differentiated pre-earnings reads.",
+      "connectors": [
+        "carbonarc"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 95,
+        "speed": 96
+      },
+      "synergyWith": [
+        "finance",
+        "factset",
+        "daloopa",
+        "visualize"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/carbon-arc-earnings-preview?skillId=81e874f4-f7b7-4053-8665-7c66d528b15f",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+a+Carbon+Arc+earnings+preview+on+Chipotle+using+real-time+card+spend,+foot+traffic,+and+cohort+retention+panels+versus+street+same-store",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "morningstar",
+      "cardNumber": "SC-009/072",
+      "index": 9,
+      "title": "Morningstar Moat & Valuation",
+      "slug": "morningstar",
+      "packId": "wall-street-alpha",
+      "kind": "Plugin Bundle",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Morningstar",
+      "publisherLogo": "./assets/logos/morningstar-logo.svg",
+      "scope": "global",
+      "skillId": "builtin-morningstar",
+      "pluginId": "plugin_1e6fd5d4-a80c-493e-a0cb-5897ee1d55a6",
+      "art": "./assets/art/card-finance.jpg",
+      "motif": "moat-citadel",
+      "canonicalCommand": "load_skill(name=\"company-comps\")",
+      "triggers": [
+        "@Morningstar",
+        "economic moat rating",
+        "fair value uncertainty",
+        "compare-company-valuations"
+      ],
+      "prompt": "Compare Morningstar fair-value estimates, economic moat ratings, and capital allocation scores across wide-moat medtech compounders.",
+      "description": "Combines Morningstar independent equity research, economic moat ratings, and fair-value models with multi-source valuation comparisons.",
+      "connectors": [
+        "morningstar",
+        "factset_mcp",
+        "daloopa"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 95,
+        "speed": 93
+      },
+      "synergyWith": [
+        "company-comps",
+        "finance",
+        "pm-thesis-and-risk-monitor"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills?pluginId=plugin_1e6fd5d4-a80c-493e-a0cb-5897ee1d55a6",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Compare+Morningstar+fair-value+estimates,+economic+moat+ratings,+and+capital+allocation+scores+across+wide-moat+medtech+compounders.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "plaid",
+      "cardNumber": "SC-010/072",
+      "index": 10,
+      "title": "Plaid Personal CFO Ledger",
+      "slug": "plaid",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "2103f28c-d0c5-4573-b570-95714af3abf7",
+      "pluginId": null,
+      "art": "./assets/art/card-carbon-arc.jpg",
+      "motif": "vault-conduit",
+      "canonicalCommand": "load_skill(name=\"monthly-money-close\")",
+      "triggers": [
+        "@Plaid",
+        "monthly money close",
+        "connected bank & card balances",
+        "cash-flow reconciliation"
+      ],
+      "prompt": "Run my monthly money close across connected Plaid bank, card, and brokerage accounts, separating net-worth market movement from savings rate and flagging recurring burn.",
+      "description": "Connects live bank, credit card, and brokerage accounts via Plaid to automate monthly cash-flow closes, category burn audits, and liquidity tracking.",
+      "connectors": [
+        "plaid"
+      ],
+      "stats": {
+        "alpha": 93,
+        "depth": 92,
+        "speed": 97
+      },
+      "synergyWith": [
+        "carta",
+        "robinhood",
+        "quickbooks",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/monthly-money-close?skillId=2103f28c-d0c5-4573-b570-95714af3abf7",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+my+monthly+money+close+across+connected+Plaid+bank,+card,+and+brokerage+accounts,+separating+net-worth+market+movement+from+savings+rate",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "carta",
+      "cardNumber": "SC-011/072",
+      "index": 11,
+      "title": "Carta Private Equity & Cap Table",
+      "slug": "carta",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-carta",
+      "pluginId": null,
+      "art": "./assets/art/card-finance.jpg",
+      "motif": "equity-seal",
+      "canonicalCommand": "load_skill(name=\"monthly-money-close\")",
+      "triggers": [
+        "@Carta",
+        "vesting schedule & ISO/NSO",
+        "409A & private holdings",
+        "illiquid equity net worth"
+      ],
+      "prompt": "Inspect my Carta personal finance grants, calculate upcoming quarterly vesting cliffs, and model AMT exposure under 409A vs. secondary valuation scenarios.",
+      "description": "Reads private-company equity grants, vesting schedules, exercise windows, and 409A valuations from Carta Personal Finance.",
+      "connectors": [
+        "carta_personal_finance"
+      ],
+      "stats": {
+        "alpha": 91,
+        "depth": 93,
+        "speed": 95
+      },
+      "synergyWith": [
+        "plaid",
+        "robinhood",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=carta_personal_finance",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Inspect+my+Carta+personal+finance+grants,+calculate+upcoming+quarterly+vesting+cliffs,+and+model+AMT+exposure+under+409A+vs.+secondary+valua",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "robinhood",
+      "cardNumber": "SC-012/072",
+      "index": 12,
+      "title": "Robinhood Brokerage Bridge",
+      "slug": "robinhood",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": "./assets/logos/public-logo.svg",
+      "scope": "builtin",
+      "skillId": "builtin-robinhood",
+      "pluginId": null,
+      "art": "./assets/art/card-factset.jpg",
+      "motif": "archer-quiver",
+      "canonicalCommand": "load_skill(name=\"finance\")",
+      "triggers": [
+        "@Robinhood",
+        "brokerage positions & tax lots",
+        "options & equity exposure",
+        "portfolio concentration"
+      ],
+      "prompt": "Analyze my connected Robinhood brokerage positions, compute sector beta and single-name concentration, and identify tax-loss harvesting candidates.",
+      "description": "Connects AI agents to Robinhood holdings, cost basis, and market positions with built-in safety controls and portfolio x-ray diagnostics.",
+      "connectors": [
+        "robinhood"
+      ],
+      "stats": {
+        "alpha": 92,
+        "depth": 90,
+        "speed": 96
+      },
+      "synergyWith": [
+        "plaid",
+        "carta",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=robinhood",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Analyze+my+connected+Robinhood+brokerage+positions,+compute+sector+beta+and+single-name+concentration,+and+identify+tax-loss+harvesting+cand",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "quickbooks",
+      "cardNumber": "SC-013/072",
+      "index": 13,
+      "title": "QuickBooks Online Controller",
+      "slug": "quickbooks",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-quickbooks",
+      "pluginId": null,
+      "art": "./assets/art/card-daloopa.jpg",
+      "motif": "double-entry-abacus",
+      "canonicalCommand": "load_skill(name=\"business-playbooks\")",
+      "triggers": [
+        "@QuickBooks",
+        "AR aging & invoices",
+        "P&L vs budget close",
+        "general ledger audit"
+      ],
+      "prompt": "Query QuickBooks Online for Q3 P&L and AR aging, reconcile open customer invoices over 60 days past due, and prepare month-end accrual entries.",
+      "description": "Queries and manages QuickBooks Online accounting ledgers, customer invoices, vendor bills, and GAAP financial statements.",
+      "connectors": [
+        "quickbooks_online_e2e_mcp"
+      ],
+      "stats": {
+        "alpha": 90,
+        "depth": 94,
+        "speed": 94
+      },
+      "synergyWith": [
+        "business-playbooks",
+        "ramp",
+        "plaid"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=quickbooks_online_e2e_mcp",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Query+QuickBooks+Online+for+Q3+P&L+and+AR+aging,+reconcile+open+customer+invoices+over+60+days+past+due,+and+prepare+month-end+accrual+entri",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "crunchbase",
+      "cardNumber": "SC-014/072",
+      "index": 14,
+      "title": "Crunchbase Venture Radar",
+      "slug": "crunchbase",
+      "packId": "wall-street-alpha",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Crunchbase",
+      "publisherLogo": "./assets/logos/crunchbase-logo.webp",
+      "scope": "global",
+      "skillId": "948b4851-d414-426e-a167-f4ade7558142",
+      "pluginId": null,
+      "art": "./assets/art/card-carbon-arc.jpg",
+      "motif": "venture-constellation",
+      "canonicalCommand": "load_skill(name=\"crunchbase-build-thesis-landscape\")",
+      "triggers": [
+        "@Crunchbase",
+        "crunchbase-build-thesis-landscape",
+        "venture funding signals",
+        "capital intensity"
+      ],
+      "prompt": "Use Crunchbase to map the Series A–C robotics foundation-model landscape, ranking cohorts by capital intensity, lead investor tier, and hiring velocity.",
+      "description": "Queries structured Crunchbase entity graphs, funding rounds, investor syndicates, and capital-intensity signals for private-market thesis landscapes.",
+      "connectors": [
+        "crunchbase_v3"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 93,
+        "speed": 95
+      },
+      "synergyWith": [
+        "industry-overview",
+        "company-comps",
+        "search"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/crunchbase-build-thesis-landscape?skillId=948b4851-d414-426e-a167-f4ade7558142",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Use+Crunchbase+to+map+the+Series+A–C+robotics+foundation-model+landscape,+ranking+cohorts+by+capital+intensity,+lead+investor+tier,+and+hiri",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "media",
+      "cardNumber": "SC-015/072",
+      "index": 15,
+      "title": "Media & Voice Production Studio",
+      "slug": "media",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-media",
+      "pluginId": null,
+      "art": "./assets/art/card-lemo-opuscar.jpg",
+      "motif": "cinema-prism-projector",
+      "canonicalCommand": "load_skill(name=\"media\")",
+      "triggers": [
+        "generate image or video",
+        "text-to-speech narration",
+        "static ad creatives",
+        "audio briefing"
+      ],
+      "prompt": "Generate a cohesive 6-plate vintage collector card art series with transparent emblems and pair it with an ElevenLabs Chris narrated showcase track.",
+      "description": "Orchestrates multi-model image generation, static ad direction, cinema video synthesis, ElevenLabs voiceover narration, and audio quality evaluation.",
+      "connectors": [
+        "elevenlabs__pipedream"
+      ],
+      "stats": {
+        "alpha": 97,
+        "depth": 96,
+        "speed": 94
+      },
+      "synergyWith": [
+        "lemo-opuscar",
+        "science-explainer-video",
+        "elevenlabs"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/media",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Generate+a+cohesive+6-plate+vintage+collector+card+art+series+with+transparent+emblems+and+pair+it+with+an+ElevenLabs+Chris+narrated+showcas",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "lemo-opuscar",
+      "cardNumber": "SC-016/072",
+      "index": 16,
+      "title": "Lemo-Opuscar Code Cinema",
+      "slug": "lemo-opuscar",
+      "packId": "auteur-3d-studio",
+      "kind": "Plugin Bundle",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Plugin Bundle",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "builtin-lemo-opuscar",
+      "pluginId": "plugin_04318fa5-1fd8-4963-8f61-a6a16e79fdba",
+      "art": "./assets/art/card-lemo-opuscar.jpg",
+      "motif": "ukiyo-impasto-reel",
+      "canonicalCommand": "load_skill(name=\"user:lemo-opuscar:lemo-opuscar\")",
+      "triggers": [
+        "Impasto Oil Painting",
+        "Ukiyo-e / Satellite Briefing",
+        "Exploded Teardown film",
+        "code-rendered short film"
+      ],
+      "prompt": "Direct and produce a 90-second code-rendered short film in the Satellite Briefing and Exploded Teardown styles explaining submarine fiber-optic cable landings.",
+      "description": "Directs, draws, scores, and mixes complete short films entirely in code across named art styles from Impasto Oil Painting to Satellite Briefing.",
+      "connectors": [
+        "elevenlabs__pipedream"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 98,
+        "speed": 91
+      },
+      "synergyWith": [
+        "media",
+        "motion-design-lab",
+        "science-explainer-video"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills?pluginId=plugin_04318fa5-1fd8-4963-8f61-a6a16e79fdba",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Direct+and+produce+a+90-second+code-rendered+short+film+in+the+Satellite+Briefing+and+Exploded+Teardown+styles+explaining+submarine+fiber-op",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "motion-design-lab",
+      "cardNumber": "SC-017/072",
+      "index": 17,
+      "title": "Motion Design Lab",
+      "slug": "motion-design-lab",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "7f86d36e-ab1d-4e30-83d5-4023d3e8562b",
+      "pluginId": null,
+      "art": "./assets/art/card-lemo-opuscar.jpg",
+      "motif": "kinetic-bezier-pendulum",
+      "canonicalCommand": "load_skill(name=\"user:motion-design-lab\")",
+      "triggers": [
+        "kinetic typography",
+        "code-rendered motion graphics",
+        "logo reveal loop",
+        "2D/3D product animation"
+      ],
+      "prompt": "Create a 60fps code-rendered kinetic typography and 3D shader reveal loop with editable source and frame-accurate MP4 export.",
+      "description": "Produces directed 2D/3D motion graphics, logo reveals, kinetic typography, and product loops with editable code source and deterministic video export.",
+      "connectors": [],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 93
+      },
+      "synergyWith": [
+        "hyperframes",
+        "lemo-opuscar",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/motion-design-lab?skillId=7f86d36e-ab1d-4e30-83d5-4023d3e8562b",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Create+a+60fps+code-rendered+kinetic+typography+and+3D+shader+reveal+loop+with+editable+source+and+frame-accurate+MP4+export.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "science-explainer-video",
+      "cardNumber": "SC-018/072",
+      "index": 18,
+      "title": "Science Explainer Documentary",
+      "slug": "science-explainer-video",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "d77f769b-9812-4924-8e36-b1d0f81537d9",
+      "pluginId": null,
+      "art": "./assets/art/card-science-explainer.jpg",
+      "motif": "wafer-bell-jar",
+      "canonicalCommand": "load_skill(name=\"user:science-explainer-video\")",
+      "triggers": [
+        "how a chip is made video",
+        "5-minute science documentary",
+        "isometric canvas + licensed footage",
+        "ElevenLabs Chris film"
+      ],
+      "prompt": "Produce a finished five-minute 1080p30 documentary explaining how EUV lithography prints 2nm transistors, with Chris narration, isometric animations, and burned-in captions.",
+      "description": "Turns complex engineering topics into five-minute narrated documentaries combining real licensed footage, original isometric canvas illustrations, and word-timed captions.",
+      "connectors": [
+        "elevenlabs__pipedream"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 99,
+        "speed": 90
+      },
+      "synergyWith": [
+        "explainer-script-to-video",
+        "media",
+        "teardown"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/science-explainer-video?skillId=d77f769b-9812-4924-8e36-b1d0f81537d9",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Produce+a+finished+five-minute+1080p30+documentary+explaining+how+EUV+lithography+prints+2nm+transistors,+with+Chris+narration,+isometric+an",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "explainer-script-to-video",
+      "cardNumber": "SC-019/072",
+      "index": 19,
+      "title": "Explainer Script-to-Video Studio",
+      "slug": "explainer-script-to-video",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "c57c43f4-d626-47a8-a191-bb91fd8d9133",
+      "pluginId": null,
+      "art": "./assets/art/card-science-explainer.jpg",
+      "motif": "storyboard-strip",
+      "canonicalCommand": "load_skill(name=\"user:explainer-script-to-video\")",
+      "triggers": [
+        "make the video from this script",
+        "produce the explainer",
+        "shot-by-shot S01 | 0:00",
+        "illustrated house style"
+      ],
+      "prompt": "Render our 24-shot explainer script on transformer attention mechanisms into a 1080p30 illustrated film with synchronized captions and continuous score.",
+      "description": "Renders shot-by-shot Markdown explainer scripts into finished 1080p30 MP4 films in a unified flat-vector illustrated house style with passage narration.",
+      "connectors": [
+        "elevenlabs__pipedream"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 96,
+        "speed": 91
+      },
+      "synergyWith": [
+        "science-explainer-video",
+        "media",
+        "elevenlabs"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/explainer-script-to-video?skillId=c57c43f4-d626-47a8-a191-bb91fd8d9133",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Render+our+24-shot+explainer+script+on+transformer+attention+mechanisms+into+a+1080p30+illustrated+film+with+synchronized+captions+and+conti",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "brickify",
+      "cardNumber": "SC-020/072",
+      "index": 20,
+      "title": "Brickify 3D LEGO Compiler",
+      "slug": "brickify",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "47583232-57b5-40fe-b989-e2d60d93d25d",
+      "pluginId": null,
+      "art": "./assets/art/card-brickify.jpg",
+      "motif": "interlocking-bricks",
+      "canonicalCommand": "load_skill(name=\"user:brickify\")",
+      "triggers": [
+        "/brickify",
+        "build a LEGO model of",
+        "brick-by-brick build-up video",
+        "interactive 3D LDraw viewer"
+      ],
+      "prompt": "Brickify a vintage 1984 Macintosh and a Saturn V launch umbilical tower, delivering interactive 3D LDraw viewers and step-by-step brick build-up videos.",
+      "description": "Compiles any subject into a gallery-grade LEGO model with bricky, delivering an interactive 3D viewer app, hero still, and brick-by-brick build-up video.",
+      "connectors": [],
+      "stats": {
+        "alpha": 97,
+        "depth": 95,
+        "speed": 92
+      },
+      "synergyWith": [
+        "website-building",
+        "scan-to-bim",
+        "teardown"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/brickify?skillId=47583232-57b5-40fe-b989-e2d60d93d25d",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Brickify+a+vintage+1984+Macintosh+and+a+Saturn+V+launch+umbilical+tower,+delivering+interactive+3D+LDraw+viewers+and+step-by-step+brick+buil",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "hairline",
+      "cardNumber": "SC-021/072",
+      "index": 21,
+      "title": "Hairline Isometric Vector Forge",
+      "slug": "hairline",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "cc9e63cd-04d5-40c5-92a1-8cc0377f556f",
+      "pluginId": null,
+      "art": "./assets/art/card-taste-skill.jpg",
+      "motif": "isometric-calligraphy",
+      "canonicalCommand": "load_skill(name=\"user:hairline\")",
+      "triggers": [
+        "make a Hairline figure",
+        "pointer-reactive isometric line art",
+        "interactive SVG icon rebuild",
+        "play tour figure"
+      ],
+      "prompt": "Build a pointer-reactive Hairline isometric figure of a mechanical split-flap departure board with hover gesture, intensity slider, and automated tour.",
+      "description": "Draws self-contained pointer-reactive isometric hairline-stroke figures with live telemetry readouts, intensity sliders, theme switches, and play tours.",
+      "connectors": [],
+      "stats": {
+        "alpha": 94,
+        "depth": 93,
+        "speed": 96
+      },
+      "synergyWith": [
+        "visualize",
+        "website-building",
+        "teardown"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/hairline?skillId=cc9e63cd-04d5-40c5-92a1-8cc0377f556f",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+a+pointer-reactive+Hairline+isometric+figure+of+a+mechanical+split-flap+departure+board+with+hover+gesture,+intensity+slider,+and+auto",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "hyperframes",
+      "cardNumber": "SC-022/072",
+      "index": 22,
+      "title": "HyperFrames HTML Video Engine",
+      "slug": "hyperframes",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "618d860d-7e29-4dfc-9e70-9d629e431b06",
+      "pluginId": null,
+      "art": "./assets/art/card-lemo-opuscar.jpg",
+      "motif": "timeline-shutter",
+      "canonicalCommand": "load_skill(name=\"hyperframes\")",
+      "triggers": [
+        "HyperFrames video",
+        "editable HTML-to-MP4",
+        "product promo composition",
+        "captioned motion clip"
+      ],
+      "prompt": "Compose and render a 1080p60 product launch reel in HyperFrames using timeline-synced DOM choreography and deterministic frame capture.",
+      "description": "Creates and renders editable high-frame-rate videos directly from HTML/CSS/SVG compositions with frame-accurate choreography.",
+      "connectors": [],
+      "stats": {
+        "alpha": 93,
+        "depth": 94,
+        "speed": 94
+      },
+      "synergyWith": [
+        "motion-design-lab",
+        "media",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/hyperframes?skillId=618d860d-7e29-4dfc-9e70-9d629e431b06",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Compose+and+render+a+1080p60+product+launch+reel+in+HyperFrames+using+timeline-synced+DOM+choreography+and+deterministic+frame+capture.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "teardown",
+      "cardNumber": "SC-023/072",
+      "index": 23,
+      "title": "Technical Cutaway & Teardown",
+      "slug": "teardown",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "215c060c-39b3-4194-a347-53c14fadc1b0",
+      "pluginId": null,
+      "art": "./assets/art/card-science-explainer.jpg",
+      "motif": "exploded-axonometric",
+      "canonicalCommand": "load_skill(name=\"teardown\")",
+      "triggers": [
+        "exploded object drawing",
+        "technical cutaway illustration",
+        "annotated part callouts",
+        "SVG/PNG/PDF schematic"
+      ],
+      "prompt": "Create an interactive exploded technical teardown illustration of a coaxial escapement watch movement with editable part layers, callout leaders, and SVG/PDF export.",
+      "description": "Generates configurable exploded technical teardown illustrations and cutaways with editable parts, leader-line annotations, and vector SVG/PDF exports.",
+      "connectors": [],
+      "stats": {
+        "alpha": 95,
+        "depth": 95,
+        "speed": 93
+      },
+      "synergyWith": [
+        "raw-material-cost-teardown",
+        "hairline",
+        "scan-to-bim"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/teardown?skillId=215c060c-39b3-4194-a347-53c14fadc1b0",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Create+an+interactive+exploded+technical+teardown+illustration+of+a+coaxial+escapement+watch+movement+with+editable+part+layers,+callout+lea",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "scan-to-bim",
+      "cardNumber": "SC-024/072",
+      "index": 24,
+      "title": "Scan-to-BIM Point Cloud Engine",
+      "slug": "scan-to-bim",
+      "packId": "auteur-3d-studio",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "9cfd122a-a4a0-4ee7-b2be-542fb6befb83",
+      "pluginId": null,
+      "art": "./assets/art/card-brickify.jpg",
+      "motif": "lidar-octree-arch",
+      "canonicalCommand": "load_skill(name=\"user:scan-to-bim\")",
+      "triggers": [
+        "scan-to-BIM",
+        "LiDAR / SLAM point cloud",
+        "IFC4 / STEP AP214 / OpenUSD",
+        "as-built BIM reconstruction"
+      ],
+      "prompt": "Segment this terrestrial LiDAR .las point cloud into parametric walls, slabs, and MEP runs with millimeter deviation refinement and export native IFC4 and OpenUSD.",
+      "description": "Segments 3D LiDAR and SLAM point clouds into parametric BIM elements with iterative surface-deviation refinement and native IFC4, STEP, and OpenUSD exports.",
+      "connectors": [],
+      "stats": {
+        "alpha": 96,
+        "depth": 98,
+        "speed": 89
+      },
+      "synergyWith": [
+        "teardown",
+        "brickify",
+        "visualize"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/scan-to-bim?skillId=9cfd122a-a4a0-4ee7-b2be-542fb6befb83",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Segment+this+terrestrial+LiDAR+.las+point+cloud+into+parametric+walls,+slabs,+and+MEP+runs+with+millimeter+deviation+refinement+and+export+n",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "elevenlabs",
+      "cardNumber": "SC-025/072",
+      "index": 25,
+      "title": "ElevenLabs Neural Voice Foundry",
+      "slug": "elevenlabs",
+      "packId": "auteur-3d-studio",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-elevenlabs",
+      "pluginId": null,
+      "art": "./assets/art/card-lemo-opuscar.jpg",
+      "motif": "harmonic-phonograph",
+      "canonicalCommand": "load_skill(name=\"media\")",
+      "triggers": [
+        "@ElevenLabs",
+        "Chris eleven_v3 narration",
+        "long-form synthetic speech",
+        "voiceover & dubbing"
+      ],
+      "prompt": "Synthesize passage-level documentary narration using ElevenLabs Chris (eleven_v3) and align word-level timestamps for burned-in cinema captions.",
+      "description": "Connects ElevenLabs expressive voice synthesis, voice cloning, and word-timed narration directly to Computer film and audio pipelines.",
+      "connectors": [
+        "elevenlabs__pipedream"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 93,
+        "speed": 96
+      },
+      "synergyWith": [
+        "media",
+        "science-explainer-video",
+        "explainer-script-to-video"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=elevenlabs__pipedream",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Synthesize+passage-level+documentary+narration+using+ElevenLabs+Chris+(eleven_v3)+and+align+word-level+timestamps+for+burned-in+cinema+capti",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "website-building",
+      "cardNumber": "SC-026/072",
+      "index": 26,
+      "title": "Full-Stack & 3D Web Atelier",
+      "slug": "website-building",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-website-building",
+      "pluginId": null,
+      "art": "./assets/art/card-website-building.jpg",
+      "motif": "architectural-loom",
+      "canonicalCommand": "load_skill(name=\"website-building\")",
+      "triggers": [
+        "build a web app or dashboard",
+        "Three.js 3D browser game",
+        "deploy_website preview",
+        "interactive web experience"
+      ],
+      "prompt": "Build an interactive 3D WebGL vintage trading card emporium with custom GLSL holographic shaders, Web Audio synthesis, and Playwright visual verification.",
+      "description": "Designs, builds, tests, and deploys production web applications, analytics dashboards, and 3D Three.js experiences with bespoke art direction and Playwright QA.",
+      "connectors": [
+        "github_mcp_direct",
+        "supabase"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 98,
+        "speed": 95
+      },
+      "synergyWith": [
+        "taste-skill",
+        "impeccable",
+        "pplx-design",
+        "visualize"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/website-building",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+an+interactive+3D+WebGL+vintage+trading+card+emporium+with+custom+GLSL+holographic+shaders,+Web+Audio+synthesis,+and+Playwright+visual",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "build-landing-pages",
+      "cardNumber": "SC-027/072",
+      "index": 27,
+      "title": "Build Landing Pages Suite",
+      "slug": "build-landing-pages",
+      "packId": "design-craft-atelier",
+      "kind": "Plugin Bundle",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Plugin Bundle",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "builtin-build-landing-pages",
+      "pluginId": "plugin_b1174043-a9d4-47d9-b87e-f44579713f76",
+      "art": "./assets/art/card-build-landing-pages.jpg",
+      "motif": "conservatory-triptych",
+      "canonicalCommand": "load_skill(name=\"build-landing-pages:landing-page-designer\")",
+      "triggers": [
+        "conversion DTC landing page",
+        "cinematic scrollytelling",
+        "landing-page-designer",
+        "scroll-story-landing"
+      ],
+      "prompt": "Design a flagship conversion-focused DTC product launch page or hand off to scroll-story-landing for a frame-scrubbed interactive brand history.",
+      "description": "Official Perplexity plugin bundling landing-page-designer (CRO & DTC archetypes) and scroll-story-landing (immersive scroll-scrubbed storytelling) with Shopify & GitHub.",
+      "connectors": [
+        "shopify",
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 97,
+        "speed": 94
+      },
+      "synergyWith": [
+        "website-building",
+        "taste-skill",
+        "brand-inspiration"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills?pluginId=plugin_b1174043-a9d4-47d9-b87e-f44579713f76",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Design+a+flagship+conversion-focused+DTC+product+launch+page+or+hand+off+to+scroll-story-landing+for+a+frame-scrubbed+interactive+brand+hist",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "taste-skill",
+      "cardNumber": "SC-028/072",
+      "index": 28,
+      "title": "Taste-Skill Art Direction",
+      "slug": "taste-skill",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "d14c8a71-bac4-418f-8581-7b2f89ebcfc4",
+      "pluginId": null,
+      "art": "./assets/art/card-taste-skill.jpg",
+      "motif": "golden-caliper",
+      "canonicalCommand": "load_skill(name=\"taste-skill\")",
+      "triggers": [
+        "distinctive art direction",
+        "substantial UI redesign",
+        "anti-slop visual system",
+        "browser art inspection"
+      ],
+      "prompt": "Apply taste-skill art direction to redesign our analytics workspace with tactile editorial surfaces, high-contrast hierarchy, and zero generic SaaS templates.",
+      "description": "Directs distinctive websites and application screens through concept-driven palette synthesis, typographic discipline, and live browser inspection.",
+      "connectors": [],
+      "stats": {
+        "alpha": 96,
+        "depth": 95,
+        "speed": 94
+      },
+      "synergyWith": [
+        "impeccable",
+        "website-building",
+        "pplx-design"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/taste-skill?skillId=d14c8a71-bac4-418f-8581-7b2f89ebcfc4",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Apply+taste-skill+art+direction+to+redesign+our+analytics+workspace+with+tactile+editorial+surfaces,+high-contrast+hierarchy,+and+zero+gener",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "impeccable",
+      "cardNumber": "SC-029/072",
+      "index": 29,
+      "title": "Impeccable Frontend Craft QA",
+      "slug": "impeccable",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "9b95d262-0dfa-4d49-b6e6-0ee0236ffeeb",
+      "pluginId": null,
+      "art": "./assets/art/card-taste-skill.jpg",
+      "motif": "jeweler-loupe",
+      "canonicalCommand": "load_skill(name=\"impeccable\")",
+      "triggers": [
+        "frontend craft audit",
+        "hierarchy & optical alignment",
+        "WCAG contrast & focus states",
+        "responsive hardening"
+      ],
+      "prompt": "Audit and harden our web application with Impeccable playbooks across 1920x1080 and 375px viewports, fixing every optical alignment, contrast, and interaction state defect.",
+      "description": "Audits, refines, and hardens frontend interfaces using Impeccable design playbooks across typography, accessibility, responsive layout, and interaction states.",
+      "connectors": [],
+      "stats": {
+        "alpha": 95,
+        "depth": 97,
+        "speed": 94
+      },
+      "synergyWith": [
+        "taste-skill",
+        "website-building",
+        "pplx-design"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/impeccable?skillId=9b95d262-0dfa-4d49-b6e6-0ee0236ffeeb",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Audit+and+harden+our+web+application+with+Impeccable+playbooks+across+1920x1080+and+375px+viewports,+fixing+every+optical+alignment,+contras",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "visualize",
+      "cardNumber": "SC-030/072",
+      "index": 30,
+      "title": "Visualize Interactive D3 & SVG",
+      "slug": "visualize",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-visualize",
+      "pluginId": null,
+      "art": "./assets/art/card-website-building.jpg",
+      "motif": "sankey-astrolabe",
+      "canonicalCommand": "load_skill(name=\"visualize\")",
+      "triggers": [
+        "interactive SVG explainer",
+        "D3 Sankey / force graph",
+        "Lightweight Charts",
+        "inline visual schematic"
+      ],
+      "prompt": "Create an interactive D3 Sankey and cursor-driven schematic showing hyperscaler capex flows from silicon foundries to cloud inference clusters.",
+      "description": "Authors self-contained HTML, SVG, D3, Chart.js, and Lightweight Charts visual explanations and interactive schematics rendered inline.",
+      "connectors": [],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 97
+      },
+      "synergyWith": [
+        "finance",
+        "data-scientist",
+        "hairline"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/visualize",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Create+an+interactive+D3+Sankey+and+cursor-driven+schematic+showing+hyperscaler+capex+flows+from+silicon+foundries+to+cloud+inference+cluste",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "brand-inspiration",
+      "cardNumber": "SC-031/072",
+      "index": 31,
+      "title": "Brand Inspiration & Creative Deck",
+      "slug": "brand-inspiration",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "36be75b5-bc92-48d7-b2f1-d6f512f040e5",
+      "pluginId": null,
+      "art": "./assets/art/card-build-landing-pages.jpg",
+      "motif": "curator-specimen-board",
+      "canonicalCommand": "load_skill(name=\"brand-inspiration\")",
+      "triggers": [
+        "competitor website tear-down",
+        "visual reference deck",
+        "positioning & CTA audit",
+        "creative benchmark"
+      ],
+      "prompt": "Capture and annotate the positioning, hero typography, motion patterns, and CTA architecture of top luxury hardware brands into a visual reference deck.",
+      "description": "Analyzes competitor websites, captures live creative specimens, and builds annotated visual reference decks covering copy, CTAs, and brand positioning.",
+      "connectors": [],
+      "stats": {
+        "alpha": 91,
+        "depth": 93,
+        "speed": 93
+      },
+      "synergyWith": [
+        "build-landing-pages",
+        "pplx-brand",
+        "pplx-document"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/brand-inspiration?skillId=36be75b5-bc92-48d7-b2f1-d6f512f040e5",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Capture+and+annotate+the+positioning,+hero+typography,+motion+patterns,+and+CTA+architecture+of+top+luxury+hardware+brands+into+a+visual+ref",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "pplx-design",
+      "cardNumber": "SC-032/072",
+      "index": 32,
+      "title": "Perplexity Design System & Motion",
+      "slug": "pplx-design",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "2257d1a0-1bfd-47b8-b0c3-b6f9e514280b",
+      "pluginId": null,
+      "art": "./assets/art/card-website-building.jpg",
+      "motif": "swiss-grid-compass",
+      "canonicalCommand": "load_skill(name=\"org:pplx-design\")",
+      "triggers": [
+        "Perplexity UI tokens",
+        "CSS Grid & page transitions",
+        "product UI creative direction",
+        "design critique"
+      ],
+      "prompt": "Design a dark-mode Perplexity product surface using official UI tokens, Swiss CSS Grid proportions, and signature cubic-bezier motion.",
+      "description": "Governs Perplexity creative direction, product UI tokens, components, brand motion, page transitions, CSS Grid architecture, and dark-mode hierarchy.",
+      "connectors": [
+        "figma_mcp_merge"
+      ],
+      "stats": {
+        "alpha": 97,
+        "depth": 96,
+        "speed": 94
+      },
+      "synergyWith": [
+        "pplx-brand",
+        "pplx-document",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/pplx-design?skillId=2257d1a0-1bfd-47b8-b0c3-b6f9e514280b",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Design+a+dark-mode+Perplexity+product+surface+using+official+UI+tokens,+Swiss+CSS+Grid+proportions,+and+signature+cubic-bezier+motion.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "pplx-brand",
+      "cardNumber": "SC-033/072",
+      "index": 33,
+      "title": "Perplexity Visual Center & Brand",
+      "slug": "pplx-brand",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "934db3a6-af6a-48df-beba-45046e6a1404",
+      "pluginId": null,
+      "art": "./assets/art/card-taste-skill.jpg",
+      "motif": "brand-hallmark-seal",
+      "canonicalCommand": "load_skill(name=\"org:pplx-brand\")",
+      "triggers": [
+        "Visual Center governance",
+        "official logos & type authority",
+        "co-branding & press assets",
+        "product-family routing"
+      ],
+      "prompt": "Verify co-branding lockups, official type hierarchy, and palette governance for our joint enterprise keynote and partner launch assets.",
+      "description": "Enforces Perplexity brand identity and Visual Center governance across logos, product-family routing, color authority, typography, and co-branding.",
+      "connectors": [
+        "figma_mcp_merge"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 96,
+        "speed": 95
+      },
+      "synergyWith": [
+        "pplx-design",
+        "pplx-document",
+        "perplexity-social-voice"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/pplx-brand?skillId=934db3a6-af6a-48df-beba-45046e6a1404",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Verify+co-branding+lockups,+official+type+hierarchy,+and+palette+governance+for+our+joint+enterprise+keynote+and+partner+launch+assets.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "pplx-document",
+      "cardNumber": "SC-034/072",
+      "index": 34,
+      "title": "Perplexity Editorial Document & Deck",
+      "slug": "pplx-document",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "77cc8329-1968-47fa-89d5-deffa516dcd2",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "illuminated-folio",
+      "canonicalCommand": "load_skill(name=\"org:pplx-document\")",
+      "triggers": [
+        "Perplexity one-pager PDF",
+        "board deck & keynote slides",
+        "case study & executive brief",
+        "editorial report QA"
+      ],
+      "prompt": "Produce a Perplexity-branded executive one-pager PDF and 12-slide board deck with visual page inspection and zero text clipping.",
+      "description": "Directs and produces Perplexity one-pagers, research briefs, case studies, and keynote decks across PDF, PPTX, and DOCX with full visual QA.",
+      "connectors": [],
+      "stats": {
+        "alpha": 96,
+        "depth": 97,
+        "speed": 93
+      },
+      "synergyWith": [
+        "pplx-brand",
+        "pplx-design",
+        "office",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/pplx-document?skillId=77cc8329-1968-47fa-89d5-deffa516dcd2",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Produce+a+Perplexity-branded+executive+one-pager+PDF+and+12-slide+board+deck+with+visual+page+inspection+and+zero+text+clipping.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "clone-x-post",
+      "cardNumber": "SC-035/072",
+      "index": 35,
+      "title": "Clone X Post Artifact Reconstructor",
+      "slug": "clone-x-post",
+      "packId": "design-craft-atelier",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "collection",
+      "skillId": "f39f26d7-f80a-4bf2-b03b-80d230244028",
+      "pluginId": null,
+      "art": "./assets/art/card-build-landing-pages.jpg",
+      "motif": "mirror-prism-lens",
+      "canonicalCommand": "load_skill(name=\"project:clone-x-post\")",
+      "triggers": [
+        "/clone-x-post",
+        "clone this X post",
+        "pixel-for-pixel artifact match",
+        "reconstruct demo from video"
+      ],
+      "prompt": "Inspect every frame and audio cue of this X post video and reconstruct the demonstrated interactive artifact as an exact visual and behavioral match.",
+      "description": "Reconstructs any software artifact demonstrated in an X/Twitter post or video as a pixel-for-pixel visual and behavioral match.",
+      "connectors": [
+        "x"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 95,
+        "speed": 92
+      },
+      "synergyWith": [
+        "website-building",
+        "taste-skill",
+        "media"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/clone-x-post?skillId=f39f26d7-f80a-4bf2-b03b-80d230244028",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Inspect+every+frame+and+audio+cue+of+this+X+post+video+and+reconstruct+the+demonstrated+interactive+artifact+as+an+exact+visual+and+behavior",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "figma",
+      "cardNumber": "SC-036/072",
+      "index": 36,
+      "title": "Figma Design Graph Connector",
+      "slug": "figma",
+      "packId": "design-craft-atelier",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-figma",
+      "pluginId": null,
+      "art": "./assets/art/card-taste-skill.jpg",
+      "motif": "vector-node-pen",
+      "canonicalCommand": "load_skill(name=\"org:pplx-design\")",
+      "triggers": [
+        "@Figma",
+        "Figma frames & variables",
+        "component styles & dev resources",
+        "design-to-code inspection"
+      ],
+      "prompt": "Read our Figma component library variables, inspect frame auto-layout specs, and synchronize CSS design tokens with the production web app.",
+      "description": "Connects directly to Figma files, projects, component sets, style tokens, comments, and dev resources for design-to-code workflows.",
+      "connectors": [
+        "figma_mcp_merge"
+      ],
+      "stats": {
+        "alpha": 93,
+        "depth": 94,
+        "speed": 95
+      },
+      "synergyWith": [
+        "pplx-design",
+        "pplx-brand",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=figma_mcp_merge",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Read+our+Figma+component+library+variables,+inspect+frame+auto-layout+specs,+and+synchronize+CSS+design+tokens+with+the+production+web+app.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "security-audit",
+      "cardNumber": "SC-037/072",
+      "index": 37,
+      "title": "Red-Team Security & Code Audit",
+      "slug": "security-audit",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "bb17e879-85cb-4e65-bff6-c7968023e226",
+      "pluginId": null,
+      "art": "./assets/art/card-security-audit.jpg",
+      "motif": "obsidian-sentinel-shield",
+      "canonicalCommand": "load_skill(name=\"user:security-audit\")",
+      "triggers": [
+        "comprehensive security audit",
+        "vulnerability review & pen test",
+        "auth & SSRF / SQLi taint trace",
+        "exploitability report"
+      ],
+      "prompt": "Run an end-to-end security audit across our FastAPI and OAuth service, tracing untrusted inputs to sink calls and delivering PoC reproducers and patches.",
+      "description": "Conducts deep vulnerability reviews and penetration-test audits across codebases, APIs, daemons, and CLIs with exploitability proof and remediation diffs.",
+      "connectors": [
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 98,
+        "speed": 92
+      },
+      "synergyWith": [
+        "php2shell-exposure-check",
+        "github",
+        "advance-pr"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/security-audit?skillId=bb17e879-85cb-4e65-bff6-c7968023e226",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+an+end-to-end+security+audit+across+our+FastAPI+and+OAuth+service,+tracing+untrusted+inputs+to+sink+calls+and+delivering+PoC+reproducers",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "php2shell-exposure-check",
+      "cardNumber": "SC-038/072",
+      "index": 38,
+      "title": "PHP2Shell CVE Exposure Scanner",
+      "slug": "php2shell-exposure-check",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "50485303-826f-4715-9e0f-bb0ec20d3ee4",
+      "pluginId": null,
+      "art": "./assets/art/card-security-audit.jpg",
+      "motif": "cve-ward-key",
+      "canonicalCommand": "load_skill(name=\"php2shell-exposure-check\")",
+      "triggers": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "PHP2Shell exposure check",
+        "authorized domain & repo scan"
+      ],
+      "prompt": "Assess our authorized subdomains and GitHub deployment manifests for CVE-2026-109618 and CVE-2026-109619 PHP2Shell exposure.",
+      "description": "Assesses PHP2Shell exposure (CVE-2026-109618 and CVE-2026-109619) across authorized domains, live deployments, and GitHub repositories.",
+      "connectors": [
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 95,
+        "speed": 96
+      },
+      "synergyWith": [
+        "security-audit",
+        "github",
+        "datadog"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/php2shell-exposure-check?skillId=50485303-826f-4715-9e0f-bb0ec20d3ee4",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Assess+our+authorized+subdomains+and+GitHub+deployment+manifests+for+CVE-2026-109618+and+CVE-2026-109619+PHP2Shell+exposure.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "graphify",
+      "cardNumber": "SC-039/072",
+      "index": 39,
+      "title": "Graphify Knowledge Graph Engine",
+      "slug": "graphify",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "63b7874f-795f-41db-acbf-1a95f1c85271",
+      "pluginId": null,
+      "art": "./assets/art/card-graphify.jpg",
+      "motif": "crystal-node-constellation",
+      "canonicalCommand": "load_skill(name=\"graphify\")",
+      "triggers": [
+        "source-grounded knowledge graph",
+        "repository architecture map",
+        "cross-file entity graph",
+        "Graphify export"
+      ],
+      "prompt": "Build an interactive source-grounded Graphify knowledge graph of our monorepo architecture, mapping service boundaries, RPC contracts, and shared state.",
+      "description": "Extracts and explores source-grounded knowledge graphs from codebases and document collections with verifiable file and line provenance.",
+      "connectors": [
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 97,
+        "speed": 93
+      },
+      "synergyWith": [
+        "github",
+        "visualize",
+        "security-audit"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/graphify?skillId=63b7874f-795f-41db-acbf-1a95f1c85271",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+an+interactive+source-grounded+Graphify+knowledge+graph+of+our+monorepo+architecture,+mapping+service+boundaries,+RPC+contracts,+and+s",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "advance-pr",
+      "cardNumber": "SC-040/072",
+      "index": 40,
+      "title": "Advance-PR & Trunk Merge Engine",
+      "slug": "advance-pr",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "d40275fd-0629-4729-91f0-d43613d2a832",
+      "pluginId": null,
+      "art": "./assets/art/card-advance-pr.jpg",
+      "motif": "brass-switch-tower",
+      "canonicalCommand": "load_skill(name=\"user:advance-pr\")",
+      "triggers": [
+        "advance this PR",
+        "resolve reviewer comments & CI",
+        "chase codeowner stamps",
+        "queue for merge with Trunk"
+      ],
+      "prompt": "Advance our open PR to merge-ready state: resolve all reviewer threads with verified code fixes and replies, pass CI, check codeowners, and enter the Trunk queue.",
+      "description": "Advances GitHub pull requests through branch sync, verified reviewer replies, CI fixes, codeowner gates, preview checks, and Trunk merge-queue recovery.",
+      "connectors": [
+        "github_mcp_direct",
+        "slack_direct"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 97,
+        "speed": 95
+      },
+      "synergyWith": [
+        "github",
+        "add-3p-skill",
+        "internal-product-state-verification"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/advance-pr?skillId=d40275fd-0629-4729-91f0-d43613d2a832",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Advance+our+open+PR+to+merge-ready+state:+resolve+all+reviewer+threads+with+verified+code+fixes+and+replies,+pass+CI,+check+codeowners,+and+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "add-3p-skill",
+      "cardNumber": "SC-041/072",
+      "index": 41,
+      "title": "Add-3P-Skill Vendor & Benchmark",
+      "slug": "add-3p-skill",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "e2ec60f7-2134-4c10-8c43-d0a15f21968a",
+      "pluginId": null,
+      "art": "./assets/art/card-advance-pr.jpg",
+      "motif": "foundry-ingot-press",
+      "canonicalCommand": "load_skill(name=\"user:add-3p-skill\")",
+      "triggers": [
+        "add-3p-skill <link>",
+        "import this skill to Computer",
+        "vendor marketplace skill",
+        "benchmark & launch video"
+      ],
+      "prompt": "Import this third-party GitHub agent skill into ppl-ai/agi with Decider routing, unit tests, fresh-session eval benchmarks, showcase app, and launch video.",
+      "description": "Vendors third-party skills into ppl-ai/agi with tests and Decider routing, benchmarks them in fresh sessions, builds a showcase and video, and babysits the PR.",
+      "connectors": [
+        "github_mcp_direct",
+        "slack_direct"
+      ],
+      "stats": {
+        "alpha": 97,
+        "depth": 96,
+        "speed": 92
+      },
+      "synergyWith": [
+        "advance-pr",
+        "github",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/add-3p-skill?skillId=e2ec60f7-2134-4c10-8c43-d0a15f21968a",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Import+this+third-party+GitHub+agent+skill+into+ppl-ai/agi+with+Decider+routing,+unit+tests,+fresh-session+eval+benchmarks,+showcase+app,+an",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "custom-credentials",
+      "cardNumber": "SC-042/072",
+      "index": 42,
+      "title": "Custom Credentials HTTPS Bridge",
+      "slug": "custom-credentials",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-custom-credentials",
+      "pluginId": null,
+      "art": "./assets/art/card-security-audit.jpg",
+      "motif": "cipher-signet-key",
+      "canonicalCommand": "load_skill(name=\"custom-credentials\")",
+      "triggers": [
+        "custom-cred:<host>",
+        "third-party HTTPS API key",
+        "Bearer / HMAC header auth",
+        "401/403 API recovery"
+      ],
+      "prompt": "Configure a secure custom-cred handle for our partner's REST API, test pagination and rate-limit headers, and wire it into our verification script.",
+      "description": "Integrates and debugs authenticated third-party HTTPS APIs without built-in connectors using secure in-session credential handles and proxy headers.",
+      "connectors": [],
+      "stats": {
+        "alpha": 93,
+        "depth": 94,
+        "speed": 96
+      },
+      "synergyWith": [
+        "website-building",
+        "supabase",
+        "github"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/custom-credentials",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Configure+a+secure+custom-cred+handle+for+our+partner's+REST+API,+test+pagination+and+rate-limit+headers,+and+wire+it+into+our+verification+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "internal-product-state-verification",
+      "cardNumber": "SC-043/072",
+      "index": 43,
+      "title": "Internal Product State Verifier",
+      "slug": "internal-product-state-verification",
+      "packId": "systems-silicon-redteam",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "skill-improvement-2d59a248263dbdabac7e1f4c4aa9dddafc8dff65450c2be6bb592bf27c340577",
+      "pluginId": null,
+      "art": "./assets/art/card-graphify.jpg",
+      "motif": "truth-sextant",
+      "canonicalCommand": "load_skill(name=\"user:internal-product-state-verification\")",
+      "triggers": [
+        "what is actually live in prod",
+        "verify rollout & flag state",
+        "cross-check Slack vs code vs PRs",
+        "ownership & release verification"
+      ],
+      "prompt": "Verify the exact production rollout state of our connector attribution badge across ppl-ai/agi commits, Eppo flags, and release channels.",
+      "description": "Verifies internal product behavior, ownership, feature-flag rollout, and release state across code, PRs, Slack threads, and runtime evidence.",
+      "connectors": [
+        "github_mcp_direct",
+        "slack_direct",
+        "linear_native"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 97,
+        "speed": 94
+      },
+      "synergyWith": [
+        "github",
+        "linear",
+        "snowflake",
+        "datadog"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/internal-product-state-verification?skillId=skill-improvement-2d59a248263dbdabac7e1f4c4aa9dddafc8dff65450c2be6bb592bf27c340577",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Verify+the+exact+production+rollout+state+of+our+connector+attribution+badge+across+ppl-ai/agi+commits,+Eppo+flags,+and+release+channels.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "github",
+      "cardNumber": "SC-044/072",
+      "index": 44,
+      "title": "GitHub & Full-Stack Shipper",
+      "slug": "github",
+      "packId": "systems-silicon-redteam",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "builtin-github",
+      "pluginId": "plugin_29df2aa8-6ba3-4b1d-a114-db9d18238260",
+      "art": "./assets/art/card-advance-pr.jpg",
+      "motif": "octo-forge-anvil",
+      "canonicalCommand": "load_skill(name=\"user:advance-pr\")",
+      "triggers": [
+        "@GitHub",
+        "gh CLI & pull requests",
+        "ship-full-stack-app",
+        "tagged release v1.0.0"
+      ],
+      "prompt": "Search ppl-ai/agi for recent connector router commits, inspect CI workflow logs with gh, and publish a clean v1.0.0 release with verified artifacts.",
+      "description": "Provides authenticated GitHub MCP and gh/git CLI access for repository creation, code search, PR review management, CI inspection, and tagged releases.",
+      "connectors": [
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 96,
+        "speed": 97
+      },
+      "synergyWith": [
+        "advance-pr",
+        "security-audit",
+        "supabase"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills?pluginId=plugin_29df2aa8-6ba3-4b1d-a114-db9d18238260",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Search+ppl-ai/agi+for+recent+connector+router+commits,+inspect+CI+workflow+logs+with+gh,+and+publish+a+clean+v1.0.0+release+with+verified+ar",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "linear",
+      "cardNumber": "SC-045/072",
+      "index": 45,
+      "title": "Linear Issue & Request Engine",
+      "slug": "linear",
+      "packId": "systems-silicon-redteam",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "87cf60a0-ffa5-4943-aa2c-2f06c009156e",
+      "pluginId": null,
+      "art": "./assets/art/card-graphify.jpg",
+      "motif": "vector-dispatch-rail",
+      "canonicalCommand": "load_skill(name=\"org:customer-requests\")",
+      "triggers": [
+        "@Linear",
+        "customer-requests intake",
+        "cycle triage & roadmap",
+        "duplicate issue consolidation"
+      ],
+      "prompt": "Search Linear for open enterprise Finance connector requests, link call transcript evidence from Momentum, and triage blockers for the current cycle.",
+      "description": "Connects Linear issues, projects, and cycles with automated customer-request intake and evidence linking from Slack and sales transcripts.",
+      "connectors": [
+        "linear_native"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 93,
+        "speed": 96
+      },
+      "synergyWith": [
+        "github",
+        "internal-product-state-verification",
+        "snowflake"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/customer-requests?skillId=87cf60a0-ffa5-4943-aa2c-2f06c009156e",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Search+Linear+for+open+enterprise+Finance+connector+requests,+link+call+transcript+evidence+from+Momentum,+and+triage+blockers+for+the+curre",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "datadog",
+      "cardNumber": "SC-046/072",
+      "index": 46,
+      "title": "Datadog Telemetry & Threat Watch",
+      "slug": "datadog",
+      "packId": "systems-silicon-redteam",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "builtin-datadog",
+      "pluginId": "plugin_7267dd07-bd37-4764-b51a-d31eaf11ae8c",
+      "art": "./assets/art/card-security-audit.jpg",
+      "motif": "watchdog-oscilloscope",
+      "canonicalCommand": "load_skill(name=\"org:incident-postmortem\")",
+      "triggers": [
+        "@Datadog",
+        "alerting monitors & APM traces",
+        "pup CLI log query",
+        "threat-investigation plugin"
+      ],
+      "prompt": "Query Datadog alerting monitors and p99 latency traces across our connector proxy service and correlate error spikes with recent deploys.",
+      "description": "Queries live Datadog monitors, APM traces, infrastructure metrics, and logs via MCP and the authenticated pup CLI for incident and threat triage.",
+      "connectors": [
+        "datadog",
+        "datadog_mcp_merge"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 96,
+        "speed": 96
+      },
+      "synergyWith": [
+        "github",
+        "security-audit",
+        "snowflake"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills?pluginId=plugin_7267dd07-bd37-4764-b51a-d31eaf11ae8c",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Query+Datadog+alerting+monitors+and+p99+latency+traces+across+our+connector+proxy+service+and+correlate+error+spikes+with+recent+deploys.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "supabase",
+      "cardNumber": "SC-047/072",
+      "index": 47,
+      "title": "Supabase Postgres & Edge Cloud",
+      "slug": "supabase",
+      "packId": "systems-silicon-redteam",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-supabase",
+      "pluginId": null,
+      "art": "./assets/art/card-website-building.jpg",
+      "motif": "emerald-crystal-vault",
+      "canonicalCommand": "load_skill(name=\"website-building\")",
+      "triggers": [
+        "@Supabase",
+        "managed Postgres migrations",
+        "Deno Edge Functions",
+        "multi-user app persistence"
+      ],
+      "prompt": "Provision a Supabase Postgres schema with RLS policies, seed canonical catalog rows, and deploy a Deno Edge Function for live leaderboard state.",
+      "description": "Manages Supabase projects, Postgres schemas, SQL migrations, publishable keys, and Deno Edge Functions for persistent multi-user web apps.",
+      "connectors": [
+        "supabase"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 96
+      },
+      "synergyWith": [
+        "website-building",
+        "github",
+        "custom-credentials"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=supabase",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Provision+a+Supabase+Postgres+schema+with+RLS+policies,+seed+canonical+catalog+rows,+and+deploy+a+Deno+Edge+Function+for+live+leaderboard+st",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "snowflake",
+      "cardNumber": "SC-048/072",
+      "index": 48,
+      "title": "Snowflake Warehouse & Data Scientist",
+      "slug": "snowflake",
+      "packId": "systems-silicon-redteam",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "35a2a4a5-0387-4976-88f2-d13cb4f08e69",
+      "pluginId": null,
+      "art": "./assets/art/card-graphify.jpg",
+      "motif": "crystalline-snowflake-prism",
+      "canonicalCommand": "load_skill(name=\"org:data-scientist\")",
+      "triggers": [
+        "@Snowflake",
+        "canonical DAU / revenue / KPI SQL",
+        "connector usage telemetry",
+        "Eppo experiment cohorts"
+      ],
+      "prompt": "Load data-scientist and query Snowflake for weekly active Finance connector usage, retention by cohort, and WoW query share deltas.",
+      "description": "Pairs the authenticated Snowflake SQL CLI with Perplexity's canonical metric definitions, table routing, and experiment cohort methodology.",
+      "connectors": [
+        "snowflake_cli"
+      ],
+      "stats": {
+        "alpha": 98,
+        "depth": 99,
+        "speed": 94
+      },
+      "synergyWith": [
+        "visualize",
+        "internal-product-state-verification",
+        "datadog"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/data-scientist?skillId=35a2a4a5-0387-4976-88f2-d13cb4f08e69",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Load+data-scientist+and+query+Snowflake+for+weekly+active+Finance+connector+usage,+retention+by+cohort,+and+WoW+query+share+deltas.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "contract-review",
+      "cardNumber": "SC-049/072",
+      "index": 49,
+      "title": "Contract Playbook Redliner",
+      "slug": "contract-review",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "46bd75ad-bc3e-40d4-8534-7279d7e73edc",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "crimson-wax-scroll",
+      "canonicalCommand": "load_skill(name=\"contract-review\")",
+      "triggers": [
+        "review this contract",
+        "redline MSA / DPA / SaaS order form",
+        "playbook risk ratings",
+        "fallback clause positions"
+      ],
+      "prompt": "Review this vendor data-licensing MSA against our enterprise playbook, flag uncapped indemnity and data-rights traps, and draft exact redline fallbacks.",
+      "description": "Reviews agreements against firm playbooks or market standards, producing clause-by-clause risk ratings, exact redline language, and deal-lead escalations.",
+      "connectors": [
+        "google_drive"
+      ],
+      "stats": {
+        "alpha": 97,
+        "depth": 97,
+        "speed": 94
+      },
+      "synergyWith": [
+        "partner-proposal-review",
+        "litigation-prep",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/contract-review?skillId=46bd75ad-bc3e-40d4-8534-7279d7e73edc",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Review+this+vendor+data-licensing+MSA+against+our+enterprise+playbook,+flag+uncapped+indemnity+and+data-rights+traps,+and+draft+exact+redlin",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "litigation-prep",
+      "cardNumber": "SC-050/072",
+      "index": 50,
+      "title": "Litigation Defense Workup",
+      "slug": "litigation-prep",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "90babbb0-6c48-41dc-a874-2857ab8c98a4",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "chancery-scales-shield",
+      "canonicalCommand": "load_skill(name=\"litigation-prep\")",
+      "triggers": [
+        "defense workup from complaint",
+        "affirmative defenses & authority",
+        "prioritized deposition questions",
+        "evidence-gap matrix"
+      ],
+      "prompt": "Prepare a defense workup from this uploaded complaint: map every cause of action by element, cite controlling authority, and draft prioritized deposition questions.",
+      "description": "Builds a structured defense workup from a complaint with element-level cause-of-action breakdowns, controlling authority, deposition outlines, and evidence gaps.",
+      "connectors": [
+        "file-citations"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 98,
+        "speed": 91
+      },
+      "synergyWith": [
+        "contract-review",
+        "file-citations",
+        "compliance-monitor"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/litigation-prep?skillId=90babbb0-6c48-41dc-a874-2857ab8c98a4",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Prepare+a+defense+workup+from+this+uploaded+complaint:+map+every+cause+of+action+by+element,+cite+controlling+authority,+and+draft+prioritiz",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "compliance-monitor",
+      "cardNumber": "SC-051/072",
+      "index": 51,
+      "title": "Regulatory Compliance Monitor",
+      "slug": "compliance-monitor",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "1e361ac2-3dd7-4375-872f-6c276c49ea00",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "federal-register-chronometer",
+      "canonicalCommand": "load_skill(name=\"compliance-monitor\")",
+      "triggers": [
+        "monitor regulatory changes",
+        "SEC / FTC / CFPB / EUR-Lex watch",
+        "compliance calendar deadlines",
+        "rule-change impact brief"
+      ],
+      "prompt": "Set up a recurring compliance watch across SEC AI disclosure rules and EU AI Act delegated acts with plain-language impact summaries and statutory deadlines.",
+      "description": "Establishes recurring regulatory monitoring across US federal/state, EU, and UK jurisdictions with plain-language impact assessments and compliance calendars.",
+      "connectors": [],
+      "stats": {
+        "alpha": 93,
+        "depth": 95,
+        "speed": 94
+      },
+      "synergyWith": [
+        "automations",
+        "contract-review",
+        "dun-and-bradstreet"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/compliance-monitor?skillId=1e361ac2-3dd7-4375-872f-6c276c49ea00",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Set+up+a+recurring+compliance+watch+across+SEC+AI+disclosure+rules+and+EU+AI+Act+delegated+acts+with+plain-language+impact+summaries+and+sta",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "billable-hours",
+      "cardNumber": "SC-052/072",
+      "index": 52,
+      "title": "LEDES Billable Hours Estimator",
+      "slug": "billable-hours",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "a2afc8c0-ea31-4301-af4a-01304ef91fc1",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "hourglass-ledger",
+      "canonicalCommand": "load_skill(name=\"billable-hours\")",
+      "triggers": [
+        "estimate billable hours",
+        "LEDES / UTBMS matter scoping",
+        "staffing & fee forecast",
+        "price this deliverable"
+      ],
+      "prompt": "Scope and price a cross-border Series B financing and IP diligence workstream using UTBMS task codes, partner/associate staffing mixes, and fee bands.",
+      "description": "Estimates billable hours and fee ranges for professional-services matters with task-by-task UTBMS/LEDES breakdowns, staffing tiers, and complexity modifiers.",
+      "connectors": [],
+      "stats": {
+        "alpha": 91,
+        "depth": 93,
+        "speed": 95
+      },
+      "synergyWith": [
+        "contract-review",
+        "business-playbooks",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/billable-hours?skillId=a2afc8c0-ea31-4301-af4a-01304ef91fc1",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Scope+and+price+a+cross-border+Series+B+financing+and+IP+diligence+workstream+using+UTBMS+task+codes,+partner/associate+staffing+mixes,+and+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "business-playbooks",
+      "cardNumber": "SC-053/072",
+      "index": 53,
+      "title": "Enterprise Business Playbooks",
+      "slug": "business-playbooks",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-business-playbooks",
+      "pluginId": null,
+      "art": "./assets/art/card-demo-org-setup.jpg",
+      "motif": "command-folio-compass",
+      "canonicalCommand": "load_skill(name=\"business-playbooks\")",
+      "triggers": [
+        "NDA screening & privacy risk",
+        "product spec & roadmap",
+        "sales account outreach",
+        "month-end journal entries"
+      ],
+      "prompt": "Draft a measurable PRD and SLA specification for our institutional connector onboarding flow, plus an account-specific executive outreach sequence.",
+      "description": "Executes operational playbooks across legal NDA screening, product specs and metrics, enterprise account research, and accounting close reconciliations.",
+      "connectors": [
+        "gcal",
+        "google_drive"
+      ],
+      "stats": {
+        "alpha": 93,
+        "depth": 94,
+        "speed": 95
+      },
+      "synergyWith": [
+        "partner-proposal-review",
+        "contract-review",
+        "quickbooks"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/business-playbooks",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Draft+a+measurable+PRD+and+SLA+specification+for+our+institutional+connector+onboarding+flow,+plus+an+account-specific+executive+outreach+se",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "partner-demo-readiness",
+      "cardNumber": "SC-054/072",
+      "index": 54,
+      "title": "Partner Demo Day Readiness",
+      "slug": "partner-demo-readiness",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "skill-improvement-cd869a94a3747c953193836c2ba85626781940f6e40694804b0fecb9f4e5be03",
+      "pluginId": null,
+      "art": "./assets/art/card-demo-org-setup.jpg",
+      "motif": "stage-spotlight-ledger",
+      "canonicalCommand": "load_skill(name=\"user:partner-demo-readiness\")",
+      "triggers": [
+        "partner Demo Day plan",
+        "runnable PoC sequence",
+        "capability readiness ledger",
+        "sandbox showcase validation"
+      ],
+      "prompt": "Build a source-grounded partner Demo Day readiness ledger and runnable 5-prompt sequence for our bulge-bracket investment banking pilot.",
+      "description": "Plans and validates partner-facing demos and low-engineering proofs of concept from capability mapping through a verified runnable sequence.",
+      "connectors": [
+        "slack_direct",
+        "github_mcp_direct"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 93
+      },
+      "synergyWith": [
+        "demo-org-setup",
+        "partner-proposal-review",
+        "pplx-document"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/partner-demo-readiness?skillId=skill-improvement-cd869a94a3747c953193836c2ba85626781940f6e40694804b0fecb9f4e5be03",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Build+a+source-grounded+partner+Demo+Day+readiness+ledger+and+runnable+5-prompt+sequence+for+our+bulge-bracket+investment+banking+pilot.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "partner-proposal-review",
+      "cardNumber": "SC-055/072",
+      "index": 55,
+      "title": "Partner & Vendor Proposal Reviewer",
+      "slug": "partner-proposal-review",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "skill-improvement-65a314b48996c6d1a86f60998d64ee36775b41ca0f72a89c1e02e320c1f07837",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "envoy-balance-scale",
+      "canonicalCommand": "load_skill(name=\"user:partner-proposal-review\")",
+      "triggers": [
+        "review partner proposal",
+        "vendor SLA & licensing terms",
+        "BYOL / MCP commercial brief",
+        "tactful counter-proposal"
+      ],
+      "prompt": "Evaluate this financial data vendor's MCP licensing proposal against our SLA, latency, and redistribution requirements, and draft a concise counter-reply.",
+      "description": "Evaluates partner and vendor proposals against internal product needs, prior commitments, and commercial constraints, drafting decision briefs and replies.",
+      "connectors": [
+        "gcal",
+        "slack_direct"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 95,
+        "speed": 94
+      },
+      "synergyWith": [
+        "contract-review",
+        "partner-demo-readiness",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/partner-proposal-review?skillId=skill-improvement-65a314b48996c6d1a86f60998d64ee36775b41ca0f72a89c1e02e320c1f07837",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Evaluate+this+financial+data+vendor's+MCP+licensing+proposal+against+our+SLA,+latency,+and+redistribution+requirements,+and+draft+a+concise+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "supplier-risk-concentration-scan",
+      "cardNumber": "SC-056/072",
+      "index": 56,
+      "title": "Supplier Concentration Risk Scanner",
+      "slug": "supplier-risk-concentration-scan",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "4eb2e557-e152-4cb8-93ac-ac84bdf9b5b5",
+      "pluginId": null,
+      "art": "./assets/art/card-daloopa.jpg",
+      "motif": "global-supply-compass",
+      "canonicalCommand": "load_skill(name=\"user:supplier-risk-concentration-scan\")",
+      "triggers": [
+        "supplier risk scan",
+        "single-source exposure alert",
+        "geo concentration & dual sourcing",
+        "supplier resilience scorecard"
+      ],
+      "prompt": "Score our 450-supplier master BOM sheet across spend, single-source exposure, Taiwan/Kunshan geo concentration, and lead-time volatility to rank top dual-sourcing actions.",
+      "description": "Scores and ranks entire supplier bases on spend, single-source exposure, geographic concentration, quality, and lead-time volatility to surface resilience gaps.",
+      "connectors": [
+        "d_b_risk_analytics",
+        "office"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 96,
+        "speed": 92
+      },
+      "synergyWith": [
+        "raw-material-cost-teardown",
+        "dun-and-bradstreet",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/supplier-risk-concentration-scan?skillId=4eb2e557-e152-4cb8-93ac-ac84bdf9b5b5",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Score+our+450-supplier+master+BOM+sheet+across+spend,+single-source+exposure,+Taiwan/Kunshan+geo+concentration,+and+lead-time+volatility+to+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "demo-org-setup",
+      "cardNumber": "SC-057/072",
+      "index": 57,
+      "title": "Enterprise Demo Org Architect",
+      "slug": "demo-org-setup",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "organization",
+      "skillId": "599fd055-38d4-4685-9d07-807a77287ac7",
+      "pluginId": null,
+      "art": "./assets/art/card-demo-org-setup.jpg",
+      "motif": "crystal-citadel-27",
+      "canonicalCommand": "load_skill(name=\"org:demo-org-setup\")",
+      "triggers": [
+        "create branded demo org",
+        "27-thread Standard demo build",
+        "persona-mapped enterprise projects",
+        "tailored-demo provisioning"
+      ],
+      "prompt": "Provision a bespoke 27-thread Standard enterprise demo organization for a global multi-manager hedge fund with persona-mapped projects, dashboards, and scheduled tasks.",
+      "description": "Provisions complete synthetic Perplexity demo organizations with persona-mapped projects, format-diverse artifacts, live dashboards, and Brain/wiki population.",
+      "connectors": [],
+      "stats": {
+        "alpha": 99,
+        "depth": 98,
+        "speed": 90
+      },
+      "synergyWith": [
+        "partner-demo-readiness",
+        "website-building",
+        "pplx-document"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/demo-org-setup?skillId=599fd055-38d4-4685-9d07-807a77287ac7",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Provision+a+bespoke+27-thread+Standard+enterprise+demo+organization+for+a+global+multi-manager+hedge+fund+with+persona-mapped+projects,+dash",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "dun-and-bradstreet",
+      "cardNumber": "SC-058/072",
+      "index": 58,
+      "title": "Dun & Bradstreet Risk & UBO Graph",
+      "slug": "dun-and-bradstreet",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Dun & Bradstreet",
+      "publisherLogo": "./assets/logos/dunbradstreet-logo.webp",
+      "scope": "global",
+      "skillId": "557b6c8f-71f1-4c89-9730-f8850bc687e0",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "duns-world-ledger",
+      "canonicalCommand": "load_skill(name=\"dnb-committee-brief\")",
+      "triggers": [
+        "@DunAndBradstreet",
+        "dnb-committee-brief",
+        "D-U-N-S entity & UBO map",
+        "third-party risk verdict"
+      ],
+      "prompt": "Generate a Dun & Bradstreet risk committee brief on our tier-1 logistics counterparty, verifying D-U-N-S identity, beneficial ownership chain, and sanctions screening.",
+      "description": "Connects D&B Risk Analytics entity resolution, beneficial-ownership (UBO) graphs, screening verdicts, and audit trails for committee-ready risk briefs.",
+      "connectors": [
+        "d_b_risk_analytics"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 96,
+        "speed": 94
+      },
+      "synergyWith": [
+        "supplier-risk-concentration-scan",
+        "compliance-monitor",
+        "contract-review"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/dnb-committee-brief?skillId=557b6c8f-71f1-4c89-9730-f8850bc687e0",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Generate+a+Dun+&+Bradstreet+risk+committee+brief+on+our+tier-1+logistics+counterparty,+verifying+D-U-N-S+identity,+beneficial+ownership+chai",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "ramp",
+      "cardNumber": "SC-059/072",
+      "index": 59,
+      "title": "Ramp Spend & Procurement Control",
+      "slug": "ramp",
+      "packId": "deal-desk-legal-gtm",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Ramp",
+      "publisherLogo": "./assets/logos/ramp-logo.svg",
+      "scope": "global",
+      "skillId": "f864108d-dfcc-499c-8c3e-de3819e66560",
+      "pluginId": null,
+      "art": "./assets/art/card-factset.jpg",
+      "motif": "golden-velocity-ram",
+      "canonicalCommand": "load_skill(name=\"ramp-spend-analysis\")",
+      "triggers": [
+        "@Ramp",
+        "ramp-spend-analysis",
+        "ramp-approval-dashboard",
+        "corporate card & bill approvals"
+      ],
+      "prompt": "Run a Ramp spend analysis across SaaS and cloud vendors, surface duplicate subscriptions and anomalous MoM spend spikes, and queue pending bill approvals.",
+      "description": "Connects Ramp corporate cards, bill pay, procurement requests, and travel inventory for automated spend analysis and approval workflows.",
+      "connectors": [
+        "ramp"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 93,
+        "speed": 97
+      },
+      "synergyWith": [
+        "quickbooks",
+        "supplier-risk-concentration-scan",
+        "business-playbooks"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/ramp-spend-analysis?skillId=f864108d-dfcc-499c-8c3e-de3819e66560",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+a+Ramp+spend+analysis+across+SaaS+and+cloud+vendors,+surface+duplicate+subscriptions+and+anomalous+MoM+spend+spikes,+and+queue+pending+b",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "search",
+      "cardNumber": "SC-060/072",
+      "index": 60,
+      "title": "Deep & Wide Multi-Source Search",
+      "slug": "search",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-search",
+      "pluginId": null,
+      "art": "./assets/art/card-search.jpg",
+      "motif": "celestial-observatory",
+      "canonicalCommand": "load_skill(name=\"search\")",
+      "triggers": [
+        "wide multi-source research",
+        "people / company / place / patent index",
+        "source-cited comparison table",
+        "deep primary-source verification"
+      ],
+      "prompt": "Run a wide source-cited research sweep across 25 sovereign AI compute initiatives, verifying contracted megawatts, GPU cluster architectures, and primary filings.",
+      "description": "Powers advanced multi-source deep and wide research across the open web and dedicated people, company, local-place, and patent indexes.",
+      "connectors": [],
+      "stats": {
+        "alpha": 99,
+        "depth": 99,
+        "speed": 97
+      },
+      "synergyWith": [
+        "finance",
+        "file-citations",
+        "office",
+        "automations"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/search",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Run+a+wide+source-cited+research+sweep+across+25+sovereign+AI+compute+initiatives,+verifying+contracted+megawatts,+GPU+cluster+architectures",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "browser-use",
+      "cardNumber": "SC-061/072",
+      "index": 61,
+      "title": "Live Browser & Local Chrome Driver",
+      "slug": "browser-use",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-browser-use",
+      "pluginId": null,
+      "art": "./assets/art/card-browser-use.jpg",
+      "motif": "automaton-astrolabe-hand",
+      "canonicalCommand": "load_skill(name=\"browser-use\")",
+      "triggers": [
+        "drive Chrome browser",
+        "live web action & form flow",
+        "verify live prices & listings",
+        "local browser bridge"
+      ],
+      "prompt": "Open our live web deployment in Chrome, execute the full interactive pack-opening and checkout flow, and verify live DOM state and zero console errors.",
+      "description": "Drives the sandbox Chrome browser or the user's local Chrome bridge to navigate complex web apps, clear checks, and verify real-time listings.",
+      "connectors": [],
+      "stats": {
+        "alpha": 97,
+        "depth": 95,
+        "speed": 94
+      },
+      "synergyWith": [
+        "desktop-use",
+        "streaming-ad-skipper",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/browser-use",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Open+our+live+web+deployment+in+Chrome,+execute+the+full+interactive+pack-opening+and+checkout+flow,+and+verify+live+DOM+state+and+zero+cons",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "desktop-use",
+      "cardNumber": "SC-062/072",
+      "index": 62,
+      "title": "Native Desktop & OS Control",
+      "slug": "desktop-use",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-desktop-use",
+      "pluginId": null,
+      "art": "./assets/art/card-browser-use.jpg",
+      "motif": "brass-workbench-console",
+      "canonicalCommand": "load_skill(name=\"desktop-use\")",
+      "triggers": [
+        "use the Desktop",
+        "native OS app automation",
+        "share_desktop live view",
+        "visible gameplay & testing"
+      ],
+      "prompt": "Launch the native CAD viewer on the sandbox desktop, share the live desktop view, and export high-resolution orthographic renders.",
+      "description": "Controls native desktop applications, OS dialogs, and visible interactive sessions on the sandbox desktop with live screen sharing.",
+      "connectors": [],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 92
+      },
+      "synergyWith": [
+        "browser-use",
+        "personal-computer",
+        "website-building"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/desktop-use",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Launch+the+native+CAD+viewer+on+the+sandbox+desktop,+share+the+live+desktop+view,+and+export+high-resolution+orthographic+renders.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "personal-computer",
+      "cardNumber": "SC-063/072",
+      "index": 63,
+      "title": "Personal Mac & Local Device Bridge",
+      "slug": "personal-computer",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-personal-computer",
+      "pluginId": null,
+      "art": "./assets/art/card-browser-use.jpg",
+      "motif": "apple-bridge-conduit",
+      "canonicalCommand": "load_skill(name=\"personal-computer\")",
+      "triggers": [
+        "local Mac files & Finder",
+        "Apple Notes / Mail / Messages",
+        "Spotlight & osascript",
+        "copy files between Mac and Cloud"
+      ],
+      "prompt": "Search my local Mac Downloads folder and Apple Notes for the Q4 board deck draft, sync the assets into the workspace, and package the updated slides.",
+      "description": "Bridges Computer directly to your personal Mac or Windows device for local files, Finder, Apple Notes, Mail, Messages, Contacts, and Spotlight.",
+      "connectors": [
+        "pplx_device__filesystem",
+        "pplx_device__apple-notes",
+        "pplx_device__mail"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 95,
+        "speed": 95
+      },
+      "synergyWith": [
+        "desktop-use",
+        "browser-use",
+        "office"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/personal-computer",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Search+my+local+Mac+Downloads+folder+and+Apple+Notes+for+the+Q4+board+deck+draft,+sync+the+assets+into+the+workspace,+and+package+the+update",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "automations",
+      "cardNumber": "SC-064/072",
+      "index": 64,
+      "title": "Autonomous Schedules & Triggers",
+      "slug": "automations",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "mythic-holo",
+      "rarityLabel": "Mythic Holo Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-automations",
+      "pluginId": null,
+      "art": "./assets/art/card-automations.jpg",
+      "motif": "celestial-tourbillon",
+      "canonicalCommand": "load_skill(name=\"automations\")",
+      "triggers": [
+        "recurring schedule / cron",
+        "Gmail / GitHub / Linear event trigger",
+        "autonomous thread maintainer",
+        "price & threshold alert"
+      ],
+      "prompt": "Create a recurring 2-hour autonomous progress maintainer and a weekday 7am market-open portfolio monitor delivered straight to this thread.",
+      "description": "Creates and manages durable recurring schedules, numeric threshold alerts, and real-time connector event triggers across Gmail, GitHub, Drive, and Linear.",
+      "connectors": [
+        "gcal",
+        "github_mcp_direct",
+        "linear_native"
+      ],
+      "stats": {
+        "alpha": 99,
+        "depth": 96,
+        "speed": 98
+      },
+      "synergyWith": [
+        "pm-thesis-and-risk-monitor",
+        "compliance-monitor",
+        "advance-pr"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/automations",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Create+a+recurring+2-hour+autonomous+progress+maintainer+and+a+weekday+7am+market-open+portfolio+monitor+delivered+straight+to+this+thread.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "office",
+      "cardNumber": "SC-065/072",
+      "index": 65,
+      "title": "Office Suite: XLSX, PPTX, DOCX & PDF",
+      "slug": "office",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "prismatic-skill",
+      "rarityLabel": "Prismatic Foil Skill",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-office",
+      "pluginId": null,
+      "art": "./assets/art/card-contract-review.jpg",
+      "motif": "polyhedron-press",
+      "canonicalCommand": "load_skill(name=\"office\")",
+      "triggers": [
+        "build Excel financial model",
+        "PowerPoint executive deck",
+        "Word redline & memo",
+        "styled PDF report"
+      ],
+      "prompt": "Generate a formula-driven multi-tab Excel operating model, a 10-slide PowerPoint summary, and a print-ready PDF brief with zero layout defects.",
+      "description": "Creates, reads, edits, styles, and visually verifies professional Excel workbooks (.xlsx), PowerPoint decks (.pptx), Word documents (.docx), and PDFs.",
+      "connectors": [
+        "google_drive"
+      ],
+      "stats": {
+        "alpha": 96,
+        "depth": 97,
+        "speed": 95
+      },
+      "synergyWith": [
+        "pplx-document",
+        "file-citations",
+        "company-comps"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/office",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Generate+a+formula-driven+multi-tab+Excel+operating+model,+a+10-slide+PowerPoint+summary,+and+a+print-ready+PDF+brief+with+zero+layout+defec",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "file-citations",
+      "cardNumber": "SC-066/072",
+      "index": 66,
+      "title": "Passage & Cell File Citations",
+      "slug": "file-citations",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-file-citations",
+      "pluginId": null,
+      "art": "./assets/art/card-search.jpg",
+      "motif": "illuminated-bookmark-loupe",
+      "canonicalCommand": "load_skill(name=\"file-citations\")",
+      "triggers": [
+        "cite uploaded PDF / DOCX / XLSX",
+        "cell-level workbook provenance",
+        "slide deck passage links",
+        "verifiable document quotes"
+      ],
+      "prompt": "Extract every financial covenant and capex commitment from the uploaded credit agreement PDF and dataroom XLSX with clickable passage and cell citations.",
+      "description": "Links every stated fact, figure, and quote from uploaded PDFs, Word documents, and Excel workbooks directly to the exact supporting passage or cell.",
+      "connectors": [],
+      "stats": {
+        "alpha": 94,
+        "depth": 98,
+        "speed": 96
+      },
+      "synergyWith": [
+        "office",
+        "contract-review",
+        "litigation-prep",
+        "finance"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/file-citations",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Extract+every+financial+covenant+and+capex+commitment+from+the+uploaded+credit+agreement+PDF+and+dataroom+XLSX+with+clickable+passage+and+ce",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "unbroker",
+      "cardNumber": "SC-067/072",
+      "index": 67,
+      "title": "UNBROKER Data-Broker Privacy Shield",
+      "slug": "unbroker",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "global",
+      "skillId": "c4ec4080-88c9-47e8-804d-5dfa0dd363db",
+      "pluginId": null,
+      "art": "./assets/art/card-security-audit.jpg",
+      "motif": "cloak-signet-shield",
+      "canonicalCommand": "load_skill(name=\"unbroker\")",
+      "triggers": [
+        "remove my info from data brokers",
+        "people-search opt-out cleanup",
+        "personal privacy exposure scan",
+        "verified opt-out follow-up"
+      ],
+      "prompt": "Scan major people-search and data-broker directories for exposed home address and phone records, prepare opt-out submissions, and track removal verification.",
+      "description": "Finds and reduces personal exposure across data-broker and people-search sites through consent-based discovery, reviewed opt-outs, and verification.",
+      "connectors": [],
+      "stats": {
+        "alpha": 93,
+        "depth": 94,
+        "speed": 93
+      },
+      "synergyWith": [
+        "browser-use",
+        "search",
+        "automations"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/unbroker?skillId=c4ec4080-88c9-47e8-804d-5dfa0dd363db",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Scan+major+people-search+and+data-broker+directories+for+exposed+home+address+and+phone+records,+prepare+opt-out+submissions,+and+track+remo",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "streaming-ad-skipper",
+      "cardNumber": "SC-068/072",
+      "index": 68,
+      "title": "Streaming 4x Ad Skipper",
+      "slug": "streaming-ad-skipper",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "ad1db237-5dd5-4a1c-a783-162140290694",
+      "pluginId": null,
+      "art": "./assets/art/card-automations.jpg",
+      "motif": "fast-forward-chronograph",
+      "canonicalCommand": "load_skill(name=\"user:streaming-ad-skipper\")",
+      "triggers": [
+        "skip Netflix / Prime Video ads",
+        "4x ad acceleration in Chrome",
+        "start or check ad skipper",
+        "restore 1x playback"
+      ],
+      "prompt": "Attach to my local Chrome streaming tab, detect confirmed Netflix or Prime Video ad breaks, accelerate ads at 4x muted, and restore 1x audio on program resume.",
+      "description": "Accelerates confirmed Netflix and Prime Video ad breaks at 4x in local Chrome via the Perplexity Mac app bridge and restores normal playback automatically.",
+      "connectors": [],
+      "stats": {
+        "alpha": 92,
+        "depth": 91,
+        "speed": 99
+      },
+      "synergyWith": [
+        "browser-use",
+        "personal-computer"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/streaming-ad-skipper?skillId=ad1db237-5dd5-4a1c-a783-162140290694",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Attach+to+my+local+Chrome+streaming+tab,+detect+confirmed+Netflix+or+Prime+Video+ad+breaks,+accelerate+ads+at+4x+muted,+and+restore+1x+audio",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "automatiq-tickets",
+      "cardNumber": "SC-069/072",
+      "index": 69,
+      "title": "Automatiq Live-Event Seat Scout",
+      "slug": "automatiq-tickets",
+      "packId": "core-superpowers-daily",
+      "kind": "Skill",
+      "rarity": "collector-rare",
+      "rarityLabel": "Vintage Collector Rare",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "individual",
+      "skillId": "0ad0eb93-fb79-4513-a553-8c40e9f5240d",
+      "pluginId": null,
+      "art": "./assets/art/card-search.jpg",
+      "motif": "velvet-amphitheater-ticket",
+      "canonicalCommand": "load_skill(name=\"user:automatiq-tickets\")",
+      "triggers": [
+        "find concert / sports / Broadway tickets",
+        "seat-level section & row pricing",
+        "Automatiq wholesale inventory",
+        "compare live-event seats"
+      ],
+      "prompt": "Search Automatiq wholesale inventory for lower-bowl Warriors and Formula 1 Grand Prix seats, comparing exact section, row, quantity, and all-in price.",
+      "description": "Searches live-event tickets and exact section/row seat listings from Automatiq's wholesale inventory across sports, concerts, theater, and festivals.",
+      "connectors": [],
+      "stats": {
+        "alpha": 93,
+        "depth": 92,
+        "speed": 96
+      },
+      "synergyWith": [
+        "sportradar",
+        "opticodds",
+        "search"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/skills/automatiq-tickets?skillId=0ad0eb93-fb79-4513-a553-8c40e9f5240d",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Search+Automatiq+wholesale+inventory+for+lower-bowl+Warriors+and+Formula+1+Grand+Prix+seats,+comparing+exact+section,+row,+quantity,+and+all",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "opticodds",
+      "cardNumber": "SC-070/072",
+      "index": 70,
+      "title": "OpticOdds Real-Time Sportsbook Feed",
+      "slug": "opticodds",
+      "packId": "core-superpowers-daily",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-opticodds",
+      "pluginId": null,
+      "art": "./assets/art/card-carbon-arc.jpg",
+      "motif": "odds-ticker-prism",
+      "canonicalCommand": "load_skill(name=\"search\")",
+      "triggers": [
+        "@OpticOdds",
+        "real-time sportsbook lines",
+        "player props & alternate spreads",
+        "line movement & vig comparison"
+      ],
+      "prompt": "Pull real-time OpticOdds moneyline, spread, and player prop prices across major books for tonight's NBA slate and highlight positive-EV line discrepancies.",
+      "description": "Streams real-time sportsbook odds, player props, alternate lines, and market movement across global bookmakers.",
+      "connectors": [
+        "opticodds"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 94,
+        "speed": 98
+      },
+      "synergyWith": [
+        "sportradar",
+        "polymarket",
+        "visualize"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=opticodds",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Pull+real-time+OpticOdds+moneyline,+spread,+and+player+prop+prices+across+major+books+for+tonight's+NBA+slate+and+highlight+positive-EV+line",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "polymarket",
+      "cardNumber": "SC-071/072",
+      "index": 71,
+      "title": "Polymarket Prediction Orderbook",
+      "slug": "polymarket",
+      "packId": "core-superpowers-daily",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-polymarket",
+      "pluginId": null,
+      "art": "./assets/art/card-factset.jpg",
+      "motif": "probability-oracle-dial",
+      "canonicalCommand": "load_skill(name=\"finance\")",
+      "triggers": [
+        "@Polymarket",
+        "prediction market probabilities",
+        "live CLOB orderbook & volume",
+        "macro & event odds"
+      ],
+      "prompt": "Query live Polymarket probabilities, 24h volume shifts, and orderbook depth across Federal Reserve rate-decision and geopolitics contracts.",
+      "description": "Accesses live public Polymarket prediction markets, implied probabilities, orderbook liquidity, and historical price trajectories with zero setup.",
+      "connectors": [
+        "polymarket"
+      ],
+      "stats": {
+        "alpha": 95,
+        "depth": 93,
+        "speed": 98
+      },
+      "synergyWith": [
+        "finance",
+        "opticodds",
+        "search"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=polymarket",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Query+live+Polymarket+probabilities,+24h+volume+shifts,+and+orderbook+depth+across+Federal+Reserve+rate-decision+and+geopolitics+contracts.",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    },
+    {
+      "id": "sportradar",
+      "cardNumber": "SC-072/072",
+      "index": 72,
+      "title": "Sportradar Live Play-by-Play Telemetry",
+      "slug": "sportradar",
+      "packId": "core-superpowers-daily",
+      "kind": "Connector",
+      "rarity": "gold-connector",
+      "rarityLabel": "1st Edition Gold Connector",
+      "publisher": "Perplexity",
+      "publisherLogo": null,
+      "scope": "builtin",
+      "skillId": "builtin-sportradar",
+      "pluginId": null,
+      "art": "./assets/art/card-search.jpg",
+      "motif": "stadium-chronograph",
+      "canonicalCommand": "load_skill(name=\"search\")",
+      "triggers": [
+        "@Sportradar",
+        "live scores & play-by-play",
+        "Formula 1 / Soccer / NFL / NBA stats",
+        "standings & injury telemetry"
+      ],
+      "prompt": "Fetch live Sportradar play-by-play telemetry, constructors standings, and sector lap times for the Formula 1 Grand Prix alongside Champions League fixtures.",
+      "description": "Delivers official live scores, schedules, standings, and play-by-play telemetry across Formula 1, soccer, basketball, football, baseball, tennis, and more.",
+      "connectors": [
+        "sportradar"
+      ],
+      "stats": {
+        "alpha": 94,
+        "depth": 95,
+        "speed": 98
+      },
+      "synergyWith": [
+        "opticodds",
+        "automatiq-tickets",
+        "visualize"
+      ],
+      "perplexityUrl": "https://www.perplexity.ai/computer/connectors?connector=sportradar",
+      "tryInComputerUrl": "https://www.perplexity.ai/computer?q=Fetch+live+Sportradar+play-by-play+telemetry,+constructors+standings,+and+sector+lap+times+for+the+Formula+1+Grand+Prix+alongside+Champions+",
+      "editionStamp": "1ST EDITION • 2026 COLLECTOR SERIES",
+      "verifiedLiveCatalog": true
+    }
+  ]
+};
