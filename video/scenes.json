@@ -1,0 +1,181 @@
+{
+  "total_duration": 138.56,
+  "scenes": [
+    {
+      "id": "s01",
+      "zoom": 1.0,
+      "caption": "Perplexity Computer connects to 72 skills, plugin bundles, and live data feeds inside one 3D vintage card shop.",
+      "narration": "Perplexity Computer connects to seventy-two specialized skills, plugins, and live data feeds, so we built a 3D card shop to explore them all.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s01.mp3",
+      "voice_duration": 7.84,
+      "scene_duration": 8.29,
+      "start_time": 0.0,
+      "end_time": 8.29
+    },
+    {
+      "id": "s02",
+      "zoom": 1.0,
+      "caption": "Step up to a brass and mahogany counter stocked with six collectible first-edition booster packs.",
+      "narration": "Instead of scrolling through a flat settings list, you step up to a brass and mahogany counter stocked with six collectible first-edition booster packs.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s02.mp3",
+      "voice_duration": 8.08,
+      "scene_duration": 8.53,
+      "start_time": 8.29,
+      "end_time": 16.82
+    },
+    {
+      "id": "s03",
+      "zoom": 1.0,
+      "caption": "Slice across the top foil seam to peel back the wrapper in Three.js and fan out five holographic cards.",
+      "narration": "When you slice across the top foil seam, the wrapper peels back in Three.js and fans out five holographic cards from the Wall Street and Alpha series.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s03.mp3",
+      "voice_duration": 8.64,
+      "scene_duration": 9.09,
+      "start_time": 16.82,
+      "end_time": 25.91
+    },
+    {
+      "id": "s04",
+      "zoom": 1.16,
+      "caption": "Custom GLSL diffraction shaders shift rainbow specular bands and cosmos starfields across the artwork as you tilt.",
+      "narration": "Every card runs a custom GLSL diffraction shader that shifts rainbow specular bands and cosmos starfields across the artwork as you tilt your cursor.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s04.mp3",
+      "voice_duration": 8.96,
+      "scene_duration": 9.41,
+      "start_time": 25.91,
+      "end_time": 35.32
+    },
+    {
+      "id": "s05",
+      "zoom": 1.0,
+      "caption": "Click any card to open the 3D inspector with its exact load command, trigger phrases, and flagship prompt.",
+      "narration": "Clicking any card opens the 3D inspector with its exact load command, trigger phrases, and a flagship prompt ready for Perplexity Computer.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s05.mp3",
+      "voice_duration": 8.56,
+      "scene_duration": 9.01,
+      "start_time": 35.32,
+      "end_time": 44.33
+    },
+    {
+      "id": "s06",
+      "zoom": 1.14,
+      "caption": "Flip the card to inspect its 1st-Edition astrolabe backplate, or click straight through to install on Perplexity.",
+      "narration": "You can flip the card to inspect its first-edition astrolabe backplate, or click straight through to the live skill and connector pages on Perplexity.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s06.mp3",
+      "voice_duration": 9.12,
+      "scene_duration": 9.57,
+      "start_time": 44.33,
+      "end_time": 53.9
+    },
+    {
+      "id": "s07",
+      "zoom": 1.0,
+      "caption": "Pack 02 \u2014 Auteur & 3D Studio: Lemo-Opuscar code cinema, 5-minute science documentaries, and Brickify 3D LEGO.",
+      "narration": "The Auteur and 3D Studio pack pulls Lemo-Opuscar code cinema, science documentaries, and the Brickify LEGO compiler.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s07.mp3",
+      "voice_duration": 7.92,
+      "scene_duration": 8.37,
+      "start_time": 53.9,
+      "end_time": 62.27
+    },
+    {
+      "id": "s08",
+      "zoom": 1.0,
+      "caption": "Pack 03 \u2014 Design Craft & Web Atelier: Website Building, Scroll-Story Landings, Taste-Skill, and Impeccable QA.",
+      "narration": "The Design Craft pack pairs website building and scroll-story pages with Taste-Skill art direction and Impeccable QA.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s08.mp3",
+      "voice_duration": 7.76,
+      "scene_duration": 8.21,
+      "start_time": 62.27,
+      "end_time": 70.48
+    },
+    {
+      "id": "s09",
+      "zoom": 1.0,
+      "caption": "Pack 04 \u2014 Systems, Silicon & Red-Team: Security Audits, Graphify architecture maps, Datadog, and Advance-PR.",
+      "narration": "For engineers, the Systems pack bundles security audits, Graphify knowledge graphs, Datadog telemetry, and autonomous PR shipping.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s09.mp3",
+      "voice_duration": 8.0,
+      "scene_duration": 8.45,
+      "start_time": 70.48,
+      "end_time": 78.93
+    },
+    {
+      "id": "s10",
+      "zoom": 1.0,
+      "caption": "Packs 05 & 06 \u2014 Deal Desk, Legal & Core Superpowers: Contract redlining, supplier risk scans, and live browser control.",
+      "narration": "The Deal Desk and Core Superpowers packs cover contract redlining, supplier risk scans, and live browser control.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s10.mp3",
+      "voice_duration": 7.92,
+      "scene_duration": 8.37,
+      "start_time": 78.93,
+      "end_time": 87.3
+    },
+    {
+      "id": "s11",
+      "zoom": 1.0,
+      "caption": "Room 02 \u2014 Illuminated Glass Display Cases: Browse flagship cards shelf by shelf under warm tungsten cabinet lamps.",
+      "narration": "Moving into the Illuminated Glass Display Cases lets you browse flagship cards shelf by shelf under warm tungsten cabinet lights.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s11.mp3",
+      "voice_duration": 7.76,
+      "scene_duration": 8.21,
+      "start_time": 87.3,
+      "end_time": 95.51
+    },
+    {
+      "id": "s12",
+      "zoom": 1.15,
+      "caption": "Filter display cabinets by foil tier to isolate Mythic plugin bundles or Gold connectors like FactSet and Daloopa.",
+      "narration": "Filter the display cabinets by foil tier to isolate Mythic plugin bundles or Gold connectors from FactSet, Daloopa, and Carbon Arc.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s12.mp3",
+      "voice_duration": 8.88,
+      "scene_duration": 9.33,
+      "start_time": 95.51,
+      "end_time": 104.84
+    },
+    {
+      "id": "s13",
+      "zoom": 1.0,
+      "caption": "Room 03 \u2014 Complete 72-Card Collector Binder across global, organization, individual, and project scopes.",
+      "narration": "The Collector Binder holds all seventy-two verified entries across every scope, with one-click JSON and CSV exports.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s13.mp3",
+      "voice_duration": 7.6,
+      "scene_duration": 8.05,
+      "start_time": 104.84,
+      "end_time": 112.89
+    },
+    {
+      "id": "s14",
+      "zoom": 1.12,
+      "caption": "Instant search and type filters narrow by trigger phrase, publisher, or capability type with direct Perplexity routing.",
+      "narration": "Instant search and type filters let you narrow by trigger phrase, publisher, or capability type and jump directly to its install page.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s14.mp3",
+      "voice_duration": 8.4,
+      "scene_duration": 8.85,
+      "start_time": 112.89,
+      "end_time": 121.74
+    },
+    {
+      "id": "s15",
+      "zoom": 1.0,
+      "caption": "Room 04 \u2014 Loadout Deck Builder: Equip up to six cards or load curated presets like the Wall Street Deal Team.",
+      "narration": "Finally, the Loadout Deck Builder lets you equip up to six cards at once, or load curated presets like the Wall Street Deal Team.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s15.mp3",
+      "voice_duration": 7.04,
+      "scene_duration": 7.49,
+      "start_time": 121.74,
+      "end_time": 129.23
+    },
+    {
+      "id": "s16",
+      "zoom": 1.0,
+      "caption": "Synthesize a chained multi-skill master prompt in one click. Explore the full 3D card shop and 72-card catalog now.",
+      "narration": "It synthesizes a chained multi-skill master prompt ready to paste into Perplexity Computer. Explore the full 3D card shop and catalog now.",
+      "audio_path": "/home/user/workspace/supercharge-card-shop/video/audio/s16.mp3",
+      "voice_duration": 8.88,
+      "scene_duration": 9.33,
+      "start_time": 129.23,
+      "end_time": 138.56
+    }
+  ]
+}

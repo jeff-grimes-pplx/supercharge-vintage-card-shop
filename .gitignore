@@ -1,0 +1,8 @@
+
+# Video raw/intermediate artifacts
+video/raw_webm/
+video/audio/
+video/master_audio.wav
+video/qa_frames/
+video/latest_raw_webm.txt
+*.mp4
